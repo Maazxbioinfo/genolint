@@ -39,3 +39,7 @@ def test_multiple_files_returns_worst_code():
     good = FIX / "good" / "gl006_indexed.sh"
     bad = FIX / "bad" / "gl001.sh"
     assert run(good, bad).returncode == 1
+
+
+def test_gl002_still_flags_shards():
+    assert "GL002" in run(FIX / "bad" / "gl002_shards.sh").stdout
