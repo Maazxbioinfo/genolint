@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genolint"
+version = "0.1.0"
+description = "Static linter for genomics command-line scripts (samtools, bcftools, GATK, SnpEff/SnpSift)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [{ name = "Maaz Ahmed" }]
+keywords = ["genomics", "bioinformatics", "linter", "bcftools", "static-analysis"]
+
+[project.scripts]
+genolint = "genolint.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
