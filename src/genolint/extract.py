@@ -3,7 +3,7 @@ from typing import List
 from genolint.model import Command
 
 # List of genomic tools we want to track in v1
-SUPPORTED_TOOLS = {"bcftools", "samtools", "gatk", "snpEff", "SnpSift"}
+SUPPORTED_TOOLS = {"bcftools", "samtools", "gatk", "snpEff", "SnpSift", "tabix", "bgzip"}
 
 def extract_commands_from_text(text: str) -> List[Command]:
     commands = []
