@@ -1,6 +1,7 @@
 import sys
 
 from genolint.extract import extract_commands_from_text
+from genolint.snakemake import is_snakemake, snakemake_to_shell
 from genolint.rules.gl001 import check_gl001
 from genolint.rules.gl002 import check_gl002
 from genolint.rules.gl003 import check_gl003
@@ -46,6 +47,8 @@ def lint_file(filepath):
         print(f"Error: cannot read '{filepath}': {e}", file=sys.stderr)
         return EXIT_ERROR
 
+    if is_snakemake(filepath, content):
+        content = snakemake_to_shell(content)
     findings = lint_text(content)
 
     if findings:

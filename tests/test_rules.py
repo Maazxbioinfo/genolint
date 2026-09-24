@@ -43,3 +43,12 @@ def test_multiple_files_returns_worst_code():
 
 def test_gl002_still_flags_shards():
     assert "GL002" in run(FIX / "bad" / "gl002_shards.sh").stdout
+
+
+def test_snakemake_bad_flags_rules():
+    out = run(FIX / "snakemake" / "bad.smk").stdout
+    assert "GL006" in out and "GL002" in out
+
+
+def test_snakemake_good_is_clean():
+    assert run(FIX / "snakemake" / "good.smk").returncode == 0
