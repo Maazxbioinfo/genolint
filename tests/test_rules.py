@@ -52,3 +52,10 @@ def test_snakemake_bad_flags_rules():
 
 def test_snakemake_good_is_clean():
     assert run(FIX / "snakemake" / "good.smk").returncode == 0
+
+
+@pytest.mark.parametrize(
+    "f", sorted((FIX / "bad_extra").glob("*.sh")), ids=lambda p: p.name
+)
+def test_bad_extra_fixture_triggers_its_rule(f):
+    assert f.name.split("_")[0].upper() in run(f).stdout
