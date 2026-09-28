@@ -1,0 +1,390 @@
+===== Finding 1 | GL001 | 0361_02a_bcftools_clean-chromosomes.sbatch line 116 =====
+--- code ---
+
+################################################################################
+echo "Repairing multiallelic sites with [ bcftools norm ] ..."
+${PROJECT_DIR}/./bcftools norm \
+    --multiallelics -any "${JOB_SCRATCH}"/"${PLINK_BASENAME}".vcf \
+    --old-rec-tag OLD_MULTIALLELIC_VAR \
+    --output "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf
+--- genolint says ---
+`bcftools norm` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: no -O flag present, output file is named .bcf but format isn't specified
+
+
+===== Finding 2 | GL002 | 0281_GB-eaSy.sh line 45 =====
+--- code ---
+" ::: `grep ">" $REF_GENOME | cut -d ' ' -f1 | sed 's/>//g'`
+
+##COMBINE SNPS FROM ALL REGIONS
+bcftools concat --no-version `ls -v Intermediate_files/4.Raw_SNPs/*.vcf` > Results/all_SNPs_raw.vcf	
+
+##FILTER VCF 
+vcftools --vcf Results/all_SNPs_raw.vcf --minDP $MIN_DEPTH --recode --stdout | awk '/#/ || /[0-9]\/[0-9]/' >Results/all_SNPs_minDP$MIN_DEPTH.vcf
+--- genolint says ---
+`bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+LABEL: Unclear
+NOTES: comment says "all regions" suggesting non-overlapping scatter output, but can't confirm from this file alone whether regions could overlap
+
+
+===== Finding 3 | GL001 | 0428_genomics.slurm line 71 =====
+--- code ---
+samtools depth reference.sorted.bam | awk '{sum+=$3} END { print "Average coverage= ",sum/NR}' >> ../results/reference.flagstat.txt
+
+# find SNPs in reads relative to reference
+samtools mpileup -uf reference.fa reference.sorted.bam | $WORK/myapps/bcftools view - > var.raw.bcf
+
+# filter SNPs
+$WORK/myapps/bcftools view var.raw.bcf | $WORK/myapps/vcfutils.pl varFilter -D100 > var.flt.vcf
+--- genolint says ---
+`bcftools view` redirects stdout to `var.raw.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+LABEL: TP
+NOTES: var.raw.bcf will actually contain plain VCF text (old bcftools 0.1.19-era view has no -O flag, always writes VCF). Doesn't crash here because next line's bcftools view auto-detects text, but the .bcf name is misleading and would break tools that require real BCF (e.g. bcftools index).
+
+
+===== Finding 4 | GL006 | 0408_0_TGP_PCA.slurm line 17 =====
+--- code ---
+
+for i in {1..22}; do 
+    echo "Extracting ancestry markers chr${i} of 1000G"
+    bcftools view /mnt/stsi/stsi3/Internal/1000G/ref_panel/hg19/vcf/ALL.chr${i}.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz \
+      -R data/HDGP.lifted.sorted.fixref.bi.phased1KG.isec1KG.isec23andMe.geno.50-5-0.2_pairwise.pos \
+      -Oz \
+      -o TGP_chr${i}.vcf.gz
+--- genolint says ---
+`bcftools view` uses region options on `/mnt/stsi/stsi3/Internal/1000G/ref_panel/hg19/vcf/ALL.chr${i}.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+LABEL: FP
+NOTES: reference panel file from a shared 1000G resource, virtually always distributed pre-indexed; rule can't see index state outside the script
+
+
+===== Finding 5 | GL006 | 0275_cre.sh line 210 =====
+--- code ---
+    fprefix=${family}-freebayes-annotated-decomposed
+    if [ -f $fprefix.vcf.gz ]
+    then
+        bcftools view -R ${family}-ensemble.db.txt.positions $fprefix.vcf.gz | bcftools sort | vt decompose -s - | vt uniq - -o $fprefix.subset.vcf.gz
+        tabix $fprefix.subset.vcf.gz
+	
+        f_fix_sample_names $fprefix
+--- genolint says ---
+`bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+LABEL: TP
+NOTES: locally-generated intermediate file, not a shared pre-indexed resource; no index call visible in this section
+
+
+===== Finding 6 | GL001 | 0714_step11a_no_outlier.slurm line 91 =====
+--- code ---
+
+# rename chromosomes to be compatible with genome reference (below)
+cd /scratch/mac9jc/genome_analysis_project/results/
+bcftools annotate --rename-chrs /home/mac9jc/cparvum_genomes/chromosome_dict2.txt no_47_all_ld_filtered_removed.vcf.gz -o no_47_snps_updated_chrom.vcf.gz
+
+echo 'starting snp annotation'
+
+--- genolint says ---
+`bcftools annotate` writes `no_47_snps_updated_chrom.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 7 | GL001 | 0387_SNP-CALLING.sbatch line 31 =====
+--- code ---
+bcftools call -mv "$out_dir/all.samples.bcf" -Ov -o "$out_dir/all.samples.vcf"
+# indexons le fichier VCF avec la commande bcftools view
+echo "indexation dd fichier VCF"
+bcftools view "$out_dir/all.samples.bcf" -Ov -o "$out_dir/all.samples.vcf.gz"
+bcftools index "$out_dir/all.samples.vcf.gz"
+echo "fin de l'appel SNPs"
+--- genolint says ---
+output type `-Ov` does not match the file name `$out_dir/all.samples.vcf.gz`.
+
+LABEL: TP
+NOTES: -Ov explicitly requests plain VCF but filename claims .gz; downstream tools expecting bgzip will misbehave, this is a real mismatch not just a missing flag
+
+
+===== Finding 8 | GL001 | 0717_step10a_annotate_and_pca_missense_only.slurm line 17 =====
+--- code ---
+
+# rename chromosomes to be compatible with genome reference (below)
+cd /scratch/mac9jc/genome_analysis_project/results/
+bcftools annotate --rename-chrs /home/mac9jc/cparvum_genomes/chromosome_dict2.txt all_ld_filtered_removed.vcf.gz -o snps_updated_chrom.vcf.gz
+
+echo 'starting snp annotation'
+
+--- genolint says ---
+`bcftools annotate` writes `snps_updated_chrom.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 9 | GL002 | 0391_vcf_filtering.sbatch line 27 =====
+--- code ---
+       tabix -p vcf ${bn}.M2.repmap1.indels.DPfilt.QUAL30.vcf.gz
+done
+
+bcftools concat *.M2.repmap1.indels.DPfilt.QUAL30.vcf.gz -O z -o allbears.M2.repmap1.indels.DPfilt.QUAL30.vcf.gz
+tabix -p vcf allbears.M2.repmap1.indels.DPfilt.QUAL30.vcf.gz
+
+#Now check individual sample depth, drop bad individuals, and then filter for site missingness
+--- genolint says ---
+`bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+LABEL: TP
+NOTES: files appear to be per-sample (${bn} loop var) rather than per-region, so overlapping positions across files is plausible; may also indicate concat vs merge confusion, but that's outside GL002's scope
+
+
+===== Finding 10 | GL006 | 0275_cre.sh line 232 =====
+--- code ---
+    fprefix=${family}-platypus-annotated-decomposed
+    if [ -f $fprefix.vcf.gz ]
+    then
+        bcftools view -R ${family}-ensemble.db.txt.positions $fprefix.vcf.gz | bcftools sort | vt decompose -s - | vt uniq - -o $fprefix.subset.vcf.gz
+        tabix $fprefix.subset.vcf.gz
+        f_fix_sample_names $fprefix
+         $cre/vcf.platypus.getNV.gatk3.sh $fprefix.subset.vcf.gz $reference
+--- genolint says ---
+`bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+LABEL: TP
+NOTES: same as Finding 5 — locally-generated intermediate file, no index call visible
+
+
+===== Finding 11 | GL001 | 0364_02b_bcftools_clean-chromosomes-with-crossmap.sbatch line 118 =====
+--- code ---
+
+################################################################################
+echo "Repairing multiallelic sites with [ bcftools norm ] ..."
+${PROJECT_DIR}/./bcftools norm \
+    --multiallelics -any "${JOB_SCRATCH}"/"${PLINK_BASENAME}".vcf \
+    --old-rec-tag OLD_MULTIALLELIC_VAR \
+    --output "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf
+--- genolint says ---
+`bcftools norm` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 12 | GL001 | 0314_bcf-align-genome.bash line 11 =====
+--- code ---
+grep "^TSTV" stats >> human.log
+
+##  get only biallelic SNPs ##
+bcftools view -m2 -M2 --types snps calls.bcf > snps.bcf
+
+## to verify run the stats again 
+bcftools stats snps.bcf > stats
+--- genolint says ---
+`bcftools view` redirects stdout to `snps.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 13 | GL001 | 0147_samtools.slurm line 15 =====
+--- code ---
+source new-modules.sh
+module load samtools
+module load bcftools
+samtools mpileup --reg ${1} -ugf ../genome.fa *sorted.bam \
+  | bcftools call -vmO z -o nci60.${1}.vcf.gz
+--- genolint says ---
+`bcftools call` writes `nci60.${1}.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: FP
+NOTES: -O IS present, bundled as -vmO z (short-option bundling: -v -m -O z). Output type z matches .vcf.gz extension. Genolint's flag parser appears not to unbundle combined short options — this is a real parser gap, not a labeling judgment call.
+
+
+===== Finding 14 | GL001 | 0364_02b_bcftools_clean-chromosomes-with-crossmap.sbatch line 122 =====
+--- code ---
+    --multiallelics -any "${JOB_SCRATCH}"/"${PLINK_BASENAME}".vcf \
+    --old-rec-tag OLD_MULTIALLELIC_VAR \
+    --output "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf
+${PROJECT_DIR}/./bcftools sort "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf \
+    --output "${JOB_SCRATCH}"/"${PLINK_BASENAME}".norm.bcf \
+    --write-index
+
+--- genolint says ---
+`bcftools sort` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.norm.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 15 | GL006 | 0541_mapping_GATK_concordance.sbatch line 43 =====
+--- code ---
+
+gatk CombineGVCFs -R $REFERENCE --variant SRR7651465.rg.md.haplotypecaller.g.vcf --variant SRR7651468.rg.md.haplotypecaller.g.vcf --variant SRR836354.rg.md.haplotypecaller.g.vcf -O tiger-impute.g.vcf.gz
+gatk --java-options "-Xmx4g" GenotypeGVCFs -R $REFERENCE -V tiger-impute.g.vcf.gz -O tiger-impute.vcf.gz
+bcftools view -R ../../relatedness/all_merge/highcov.nodups.highcov.biallelic.AN.pCC.DPQUALtest.genmap.bed -O z -o tiger-impute-ec-pcc-filterhigh.vcf.gz tiger-impute-ec-pcc.vcf.gz
+--- genolint says ---
+`bcftools view` uses region options on `tiger-impute-ec-pcc.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+LABEL: unclear
+NOTES: tiger-impute-ec-pcc.vcf.gz is never created in this script — it's a different filename from what GATK produces above (tiger-impute.vcf.gz), so its origin and index status are outside this script's visibility
+
+
+===== Finding 16 | GL001 | 0361_02a_bcftools_clean-chromosomes.sbatch line 120 =====
+--- code ---
+    --multiallelics -any "${JOB_SCRATCH}"/"${PLINK_BASENAME}".vcf \
+    --old-rec-tag OLD_MULTIALLELIC_VAR \
+    --output "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf
+${PROJECT_DIR}/./bcftools sort "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf \
+    --output "${JOB_SCRATCH}"/"${PLINK_BASENAME}".norm.bcf \
+    --write-index
+
+--- genolint says ---
+`bcftools sort` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.norm.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 17 | GL002 | 0431_vcf_scaff_to_snp.vcf.slurm line 22 =====
+--- code ---
+sc2=$(cat $6 | awk '{print $2}')
+
+echo "Concatenating vcfs..."
+bcftools concat -o $1/gatk.all_indivs.vcf.gz -O z $1/scaff_vcfs/*.gatk.vcf.gz &&
+
+if [ $7 == "T"]
+then
+--- genolint says ---
+`bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+LABEL: unclear
+NOTES: directory name "scaff_vcfs" suggests per-scaffold non-overlapping GATK output, but can't confirm without seeing what generated these files
+
+
+===== Finding 18 | GL001 | 0361_02a_bcftools_clean-chromosomes.sbatch line 138 =====
+--- code ---
+    --discard \
+    --fasta-ref ${FASTA_REF_FILE} \
+    --mode flip
+${PROJECT_DIR}/./bcftools sort "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf \
+    --output "${OUTPUTS_DIR}"/"${PLINK_BASENAME}".sorted.bcf \
+    --write-index
+
+--- genolint says ---
+`bcftools sort` writes `${OUTPUTS_DIR}/${PLINK_BASENAME}.sorted.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 19 | GL001 | 0364_02b_bcftools_clean-chromosomes-with-crossmap.sbatch line 140 =====
+--- code ---
+    --discard \
+    --fasta-ref ${FASTA_REF_FILE} \
+    --mode flip
+${PROJECT_DIR}/./bcftools sort "${JOB_SCRATCH}"/"${PLINK_BASENAME}".bcf \
+    --output "${OUTPUTS_DIR}"/"${PLINK_BASENAME}".sorted.bcf \
+    --write-index
+
+--- genolint says ---
+`bcftools sort` writes `${OUTPUTS_DIR}/${PLINK_BASENAME}.sorted.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 20 | GL006 | 0275_cre.sh line 221 =====
+--- code ---
+    fprefix=${family}-gatk-haplotype-annotated-decomposed
+    if [ -f $fprefix.vcf.gz ]
+    then
+        bcftools view -R ${family}-ensemble.db.txt.positions $fprefix.vcf.gz | bcftools sort | vt decompose -s - | vt uniq - -o $fprefix.subset.vcf.gz
+        tabix $fprefix.subset.vcf.gz
+	
+        f_fix_sample_names $fprefix
+--- genolint says ---
+`bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 21 | GL001 | 0310_align-genome.bash line 65 =====
+--- code ---
+grep "^TSTV" stats >> human.log
+
+##  get only biallelic SNPs ##
+bcftools view -m2 -M2 --types snps calls.bcf > snps.bcf
+
+## to verify run the stats again 
+bcftools stats snps.bcf > stats
+--- genolint says ---
+`bcftools view` redirects stdout to `snps.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+LABEL: TP
+NOTES: near-duplicate of Finding 12's code — likely copies of the same tutorial/workshop script by different authors
+
+
+===== Finding 22 | GL006 | 0275_cre.sh line 180 =====
+--- code ---
+
+    # this may produce duplicate records if two positions from positions file overlap with a variant 
+    # (there are 2 positions and 2 overlapping variants, first reported twice)
+    bcftools view -R ${family}-ensemble.db.txt.positions ${family}-ensemble-annotated-decomposed.vcf.gz | bcftools sort | vt uniq - | vt rminfo -t CSQ,Interpro_domain,MutPred_Top5features,MutationTaster_AAE - -o $family.vcf.gz
+    tabix $family.vcf.gz
+    
+    rm $family.tmp.vcf.gz $family.tmp.vcf.gz.tbi
+--- genolint says ---
+`bcftools view` uses region options on `${family}-ensemble-annotated-decomposed.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 23 | GL002 | 0353_bcftools_concat.sbatch line 66 =====
+--- code ---
+
+# Run bcftools concat
+cmd=(
+  bcftools concat
+  --threads "$SLURM_CPUS_PER_TASK"
+  -f "$vcf_list" # list of input VCF file paths
+  -O z
+--- genolint says ---
+`bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+LABEL: unclear
+NOTES: ommand is built incrementally as a bash array (cmd=(...)); snippet cuts off before the array is finished, so -a could be added on a line not shown here
+
+
+===== Finding 24 | GL001 | 0395_submit_minimap2_upd_genome_w_mpileup_07amm.sbatch line 101 =====
+--- code ---
+bcftools index -f $OUTD/dm${RIL}_2_${REFNAME}_int_0.5_rmRefMismatch_snps.vcf.gz -o $OUTD/dm${RIL}_2_${REFNAME}_int_0.5_rmRefMismatch_snps.vcf.gz.csi
+
+## only GT=0/0
+bcftools view -i 'GT="0/0"' $OUTD/dm${RIL}_2_${REFNAME}_int_0.5_rmRefMismatch_snps.vcf.gz -o $OUTD/dm${RIL}_2_${REFNAME}_upd_genome_gt00.vcf.gz
+
+## pull these postions from starting RIL vcf file
+bedtools intersect -a $VCF/ril_${RIL}_snp_filter_0.5_rmRefMismatch.vcf \
+--- genolint says ---
+`bcftools view` writes `$OUTD/dm${RIL}_2_${REFNAME}_upd_genome_gt00.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+LABEL: TP
+NOTES: 
+
+
+===== Finding 25 | GL001 | 0441_bcftools.pbs line 17 =====
+--- code ---
+#samtools view -bS $PBS_O_WORKDIR/data/oilpalm/bcf/$PBS_ARRAY_INDEX.sam > $PBS_O_WORKDIR/data/oilpalm/bcf/$PBS_ARRAY_INDEX.bam
+#samtools sort $PBS_O_WORKDIR/data/oilpalm/bcf/$PBS_ARRAY_INDEX.bam -o $PBS_O_WORKDIR/data/oilpalm/bcf/$PBS_ARRAY_INDEX.sorted.bam
+#samtools mpileup -uf $PBS_O_WORKDIR/data/oilpalm/reference/dura/picifera_ref/genome.fasta $PBS_O_WORKDIR/data/oilpalm/bcf/$PBS_ARRAY_INDEX.sorted.bam | bcftools view -Ov - > $PBS_O_WORKDIR/data/oilpalm/bcf/$PBS_ARRAY_INDEX.raw.bcf
+/home/users/nus/bchcnh/bin/bin/bcftools view -i '%QUAL>=30' --threads 10 $PBS_O_WORKDIR/data/oilpalm/bcf/raw_bcf/$PBS_ARRAY_INDEX.raw.bcf > $PBS_O_WORKDIR/data/oilpalm/bcf/raw_bcf/$PBS_ARRAY_INDEX.30.bcf
+--- genolint says ---
+`bcftools view` redirects stdout to `$PBS_O_WORKDIR/data/oilpalm/bcf/raw_bcf/$PBS_ARRAY_INDEX.30.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+LABEL: TP
+NOTES: 
+
