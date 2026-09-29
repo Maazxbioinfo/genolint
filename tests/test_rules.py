@@ -59,3 +59,31 @@ def test_snakemake_good_is_clean():
 )
 def test_bad_extra_fixture_triggers_its_rule(f):
     assert f.name.split("_")[0].upper() in run(f).stdout
+
+from genolint.snakemake import snakemake_to_shell
+
+
+def _snakemake_rows(text):
+    out = snakemake_to_shell(text).splitlines()
+    return {i + 1: l for i, l in enumerate(out) if l.strip()}
+
+
+def test_snakemake_line_numbers_bad_fixture():
+    rows = _snakemake_rows(open("tests/fixtures/snakemake/bad.smk").read())
+    assert set(rows) == {5, 10}
+    assert rows[5].startswith("bcftools view")
+    assert rows[10].startswith("bcftools concat")
+
+
+def test_snakemake_line_numbers_with_continuations():
+    text = (
+        "rule a:\n"
+        "    shell:\n"
+        '        """\n'
+        "        bcftools view \\\n"
+        "            -r chr20 a.vcf.gz \\\n"
+        "            -Oz -o out.vcf.gz\n"
+        "        bcftools index out.vcf.gz\n"
+        '        """\n'
+    )
+    assert set(_snakemake_rows(text)) == {4, 7}

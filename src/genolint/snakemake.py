@@ -1,15 +1,14 @@
 """Turn a Snakefile into plain shell text so the normal extractor can lint it.
 
 Only `shell:` directives are handled. Every other line is blanked, and the
-command text is placed starting at the line of the `shell:` keyword, so
-reported line numbers point at the right place (approximately, for
-multi-line commands).
+commands are placed on the line where they start in the Snakefile, so
+reported line numbers match the source.
 """
 import ast
 import os
 import re
 import textwrap
-from typing import List
+from typing import List, Tuple
 
 _RULE = re.compile(r"^\s*rule\s+\w*\s*:", re.M)
 _SHELL = re.compile(r"^(\s*)shell\s*:\s*(.*)$")
@@ -33,22 +32,43 @@ def _strip_quotes(line: str) -> str:
     return s
 
 
-def _block_to_commands(block_lines: List[str]) -> List[str]:
+def _line_starts(block_lines: List[str], node: ast.AST) -> List[int]:
+    """block_lines index where each line of the evaluated string begins.
+
+    Python joins a physical line ending in an odd number of backslashes to the
+    next one, so that next line does not start a new line of the string.
+    """
+    starts, new_line = [], True
+    for p in range(node.lineno - 1, node.end_lineno):
+        if new_line:
+            starts.append(p)
+        line = block_lines[p]
+        new_line = (len(line) - len(line.rstrip("\\"))) % 2 == 0
+    return starts
+
+
+def _block_to_commands(block_lines: List[str]) -> List[Tuple[int, str]]:
+    """Return (offset, command) pairs; offset indexes into block_lines."""
     src = "(" + "\n".join(block_lines) + "\n)"
     try:
-        value = ast.literal_eval(src)
-        if isinstance(value, str):
-            value = textwrap.dedent(value)
-            return [l.strip() for l in value.splitlines() if l.strip()]
+        node = ast.parse(src, mode="eval").body
     except (ValueError, SyntaxError):
-        pass
+        node = None
+    if isinstance(node, ast.Constant) and isinstance(node.value, str):
+        starts = _line_starts(block_lines, node)
+        value = textwrap.dedent(node.value)
+        return [
+            (starts[min(n, len(starts) - 1)], l.strip())
+            for n, l in enumerate(value.splitlines())
+            if l.strip()
+        ]
     # Fallback for f-strings, .format() calls, etc.: strip quotes line by line
     out = []
-    for l in block_lines:
+    for idx, l in enumerate(block_lines):
         if l.strip() and not l.strip().startswith("#"):
             s = _strip_quotes(l)
             if s:
-                out.append(s)
+                out.append((idx, s))
     return out
 
 
@@ -67,8 +87,9 @@ def snakemake_to_shell(text: str) -> str:
         while j < len(lines) and (not lines[j].strip() or _indent(lines[j]) > base):
             block.append(lines[j])
             j += 1
-        for k, cmd in enumerate(_block_to_commands(block)):
-            if i + k < len(out):
-                out[i + k] = cmd
+        for offset, cmd in _block_to_commands(block):
+            row = i + offset
+            if row < len(out):
+                out[row] = f"{out[row]} ; {cmd}" if out[row] else cmd
         i = j
     return "\n".join(out) + "\n"

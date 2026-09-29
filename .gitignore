@@ -4,3 +4,4 @@ __pycache__/
 .pytest_cache/
 *:Zone.Identifier
 validation/corpus/
+.snakemake/
