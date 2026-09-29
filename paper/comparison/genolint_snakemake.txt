@@ -1,0 +1,10 @@
+Linting tests/fixtures/snakemake/bad.smk...
+
+[!] Found 2 issue(s):
+  - [GL002] Line 8: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+  - [GL006] Line 4: `bcftools view` uses region options on `a.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/snakemake/good.smk...
+
+[+] No issues found! Clean bill of health.
+
