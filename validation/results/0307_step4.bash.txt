@@ -1,0 +1,4 @@
+Linting validation/corpus/0307_step4.bash...
+
+[+] No issues found! Clean bill of health.
+

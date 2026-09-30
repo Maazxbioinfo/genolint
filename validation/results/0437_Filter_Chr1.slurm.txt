@@ -1,0 +1,4 @@
+Linting validation/corpus/0437_Filter_Chr1.slurm...
+
+[+] No issues found! Clean bill of health.
+

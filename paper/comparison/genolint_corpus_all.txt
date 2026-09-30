@@ -1,0 +1,2933 @@
+Linting validation/corpus/0000_Samtools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0001_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0002_bwa.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0003_merge.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0004_build.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0005_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0006_build.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0007_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0008_main.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0009_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0010_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0011_make.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0012_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0013_clean.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0014_hic.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0015_phase.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0016_getData.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0017_rop.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0018_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0019_polish.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0020_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0021_INSTALL.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0022_runBWA.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0023_init.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0024_config.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0025_runGSNAP.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0026_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0027_BS-Snper.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0028_makecpg.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0029_getData.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0030_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0031_build.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0032_GATK.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0033_Align.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0034_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0035_bamTobw.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0036_runOEA.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0037_env.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0038_runCorr.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0039_bwamap.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0040_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0041_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0042_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0043_pipeline.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0044_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0045_WGS_GATK.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0046_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0047_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0048_liftover.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0049_sedef.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0050_bwa.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0051_hisat.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0052_ema_prep.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0053_itdseek.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0054_run_all.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0055_qc.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0056_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0057_pamir.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0058_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0059_athlon.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0060_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0061_setup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0062_sam.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0063_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0064_NanoFG.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0065_AG_check.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0066_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0067_collect.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0068_Makefile.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0069_ChIPseq.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0070_main.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0071_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0072_macs2.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0073_config.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0074_sim.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0075_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0076_pathseq.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0077_non_ref.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0078_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0079_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0080_samtools_tab_completion.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0081_samtools_coverage_runner.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0082_samtools_merge.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0083_samtools_coverage.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0084_samtools_coverage_runner.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0085_samtools_variant_calling.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0086_samtools_coverage_runner.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0087_samtools_coverage_runner_simualted.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0088_buildSamTools.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0089_IGV_PWS_CRFKRNAseq_B3_Samtools.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0090_separate_reads.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0091_install.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0092_annotate_module_v2.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0093_build.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0094_blobology.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0095_immsnp.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0096_isotypes_star.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0097_hirise_commands.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0098_install_packages_home.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0099_create_metaplots.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0100_preprocessing.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0101_SingleCellHMM_MW.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0102_NGS_QuickReference_OneLiners.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0103_parallel_index.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0104_FindSCUnKsRegions.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0105_5_remove_low_quality.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0106_calculate_ChIP-seq_QC_metrics.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0107_runDNAscent_barcodes.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0108_runDNAscent.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0109_versions.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0110_plasmidseq_QC.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0111_bcftools.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0112_SingleCellHMM_MW.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0113_preprocessing.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0114_basecall.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0115_dorado_align.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0116_basecall_no_trim.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0117_samtools.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0118_samtools_stats.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0119_samtools_coverage.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0120_4_samtools.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0121_4_samtools_merge_barcode.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0122_samtools_depth.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0123_07.samtools.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0124_1.samtools_depth.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0125_10_samtools_bam_qc.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0126_vc_lab.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0127_vc_pipeline.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0128_ctdna_callers.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0129_ctdna_minreads.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0130_ctdna_rawreads.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0131_best_practise.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0132_main.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0133_example_slurm_usage.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0134_Bam2Cram.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0135_run_L1a1_pipeline.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0136_run_rRNA_removal.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0137_modern.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0138_braker_run.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0139_ancient.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0140_ProcessRemapWGS.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0141_count.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0142_modern_couples.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0143_preprocess.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0144_blastn.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0145_MagicBLAST_and_Samtools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0146_samtools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0147_samtools.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 15: `bcftools call` writes `nci60.${1}.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+Linting validation/corpus/0148_step2_samtools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0149_step5_extractFeatures_samtools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0150_samtools_merge.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0151_samtools_depth.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0152_samtools_view-q.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0153_samtools_coverage.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0154_02_samtools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0155_samtools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0156_3.B_samtools_processing.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0157_4.F_samtools_processing.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0158_4.D_samtools_processing.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0159_06_build_samtools_index.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0160_samtools_depth.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0161_samtools_faidx.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0162_samtools_depth_7.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0163_run_SAMtools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0164_map_barcodes.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0165_vamb.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0166_vamb.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0167_vamb.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0168_map_barcodes.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0169_run_yahs_array.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0170_pggb_partition_v2.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0171_samtools_index.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0172_bwa.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0173_alignment.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0174_gatk.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0175_runBowtie2only.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0176_runStarEagle-rc.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0177_runEagle.starA2.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0178_runAnalysis.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0179_markdup.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0180_step7_CNA.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0181_runAnalysis.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0182_hmmRatac.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0183_Bam2Fq.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0184_200402_rna_slurm.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0185_map.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0186_Filter_IgH.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0187_merge.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0188_prepare.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0189_cram2fastq_samtools.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0190_samtools_merge_index_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0191_4_samtools_merge_bams_1234_generic.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0192_samtools_view.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0193_Acon3_samtools.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0194_Vrig3_samtools.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0195_Aful2_samtools.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0196_5_OAN_Hi-C_samtools_view_bam_subsetting_generic.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0197_samtools-depth.bw.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0198_samtools-depth.bw.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0199_medusa_samtoolsStats.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0200_5.phase_loops.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0201_markdups_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0202_call_spp_custom.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0203_contig_coverage_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0204_align_reads_to_contigs_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0205_jobscript.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0206_clonalCovPerl.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0207_mapping.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0208_preconcoct.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0209_rungvm.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0210_BothVarCallers_VarCallExome_1kG_NA12890.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0211_BothVarCallers_VarCallExome_1kG_NA12889.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0212_metaG_2_metaG.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0213_jobscript.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0214_align.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0215_4.extract_summary_stats.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0216_UnpackSoftware.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0217_05_make_figs.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0218_01_align_fastq.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0219_trinity_2.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0220_trinity_1.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0221_trinity_3.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0222_medusa_trn.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0223_call_make.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0224_04_pileup_samples.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0225_medusa_star.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0226_human.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0227_1.mpileup.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0228_hisat2_rnaseq.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0229_BCFtools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0230_bcftools_1.0.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0231_run_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0232_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0233_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0234_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0235_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0236_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0237_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0238_bcftools_isec.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0239_bcftools_tags.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0240_run_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0241_bcftools_VAF.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0242_bcftools_ANN.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0243_6.5_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0244_run_bcftools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0245_bcftools_merge.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0246_bcftools_TsTv.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0247_exomes.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0248_run.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0249_common.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0250_status.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0251_jobscript.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0252_build-all.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0253_call_delly.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0254_download.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0255_Phasing_score.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0256_extract23.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0257_prepare_envs.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0258_pipeline.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0259_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0260_vcf2annot.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0261_compare_vcf.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0262_run_shapeit.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0263_bjobGen.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0264_VCF_2_CSV.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0265_updateVMs.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0266_run_introme.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0267_samSNPs.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0268_VCF_2_EPI.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0269_workflow.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0270_example.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0271_merge_vcf.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0272_KORA.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0273_pbs.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0274_run.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0275_cre.sh...
+
+[!] Found 4 issue(s):
+  - [GL006] Line 180: `bcftools view` uses region options on `${family}-ensemble-annotated-decomposed.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+  - [GL006] Line 210: `bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+  - [GL006] Line 221: `bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+  - [GL006] Line 232: `bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting validation/corpus/0276_LDlookup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0277_cre.fixit.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0278_misc.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0279_vm.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0280_IMPAR.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0281_GB-eaSy.sh...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 45: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting validation/corpus/0282_run_dream.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0283_vcfmerge.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0284_AutoMap_v1.3.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0285_cre.vcf2db.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0286_vep.pbs.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0287_analysis.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0288_3.1phase.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0289_Dsuite.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0290_call_snp.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0291_cre.vcf2cre.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0292_samtools.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0293_stop.pbs.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0294_Dfs.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0295_install_deps.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0296_call_variants.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0297_11_call_snvs_with_bcftools.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0298_create_bcftools_vcfs.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0299_install.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0300_process_fastq.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0301_vcfGenotypeLookup.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0302_allele_conflicts.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0303_convert_sawfish_vcfs_to_common_cnv_exclusion_bed.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0304_filter_vcf.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0305_QC.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0306_heterozygosity.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0307_step4.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0308_genomic_modules.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0309_swim.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0310_align-genome.bash...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 65: `bcftools view` redirects stdout to `snps.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+Linting validation/corpus/0311_create_openSNP_cohort.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0312_cineca_split.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0313_09_anir.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0314_bcf-align-genome.bash...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 11: `bcftools view` redirects stdout to `snps.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+Linting validation/corpus/0315_merge_VCFs.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0316_cineca_split_job.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0317_Script_exoma.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0318_get_allele_freqs.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0319_make_consensus.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0320_vcf2maf_wrapper.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0321_strkit_job.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0322_Modules.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0323_keep_samps.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0324_preprocessing.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0325_get_pgen.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0326_1_setup.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0327_SMM_ht.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0328_s12_8_variantAnnotation.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0329_SMM_env.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0330_vcf2maf_wrapper.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0331_combineGenotype.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0332_Script_mixed_exoma.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0333_polymiss_github.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0334_filter_perPool_vcf.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0335_vcf_to_base_counts.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0336_SMM_ht_noDD.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0337_printversions.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0338_isec.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0339_s99.x1.get_fmissing.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0340_02_prep_plantpan_data.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0341_bsub_make_bcfs_sra.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0342_vc.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0343_Platypus_SNPcalling_GBS.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0344_GATKQC_filters.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0345_bcf_merge_lib1_to_6_TARdn_V2P.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0346_bcf_variant_calling.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0347_uti_human_snps_SFS.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0348_set_vars_missing.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0349_process_bcf.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0350_wgg_bcftools_call.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0351_bcftools.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0352_bcftools_stats.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0353_bcftools_concat.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 66: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting validation/corpus/0354_bcftools.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0355_bcftools_concat_genome.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0356_bcftools_call_by_scaffold.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0357_0066_getSNPs_from_BAM_by_bcftools.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0358_job-mpileup_bcftools_old.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0359_job-bcftools_stats.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0360_job-bcftools_mpileup.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0361_02a_bcftools_clean-chromosomes.sbatch...
+
+[!] Found 3 issue(s):
+  - [GL001] Line 116: `bcftools norm` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+  - [GL001] Line 120: `bcftools sort` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.norm.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+  - [GL001] Line 138: `bcftools sort` writes `${OUTPUTS_DIR}/${PLINK_BASENAME}.sorted.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+Linting validation/corpus/0362_lostruct.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0363_summarize_run.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0364_02b_bcftools_clean-chromosomes-with-crossmap.sbatch...
+
+[!] Found 3 issue(s):
+  - [GL001] Line 118: `bcftools norm` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+  - [GL001] Line 122: `bcftools sort` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.norm.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+  - [GL001] Line 140: `bcftools sort` writes `${OUTPUTS_DIR}/${PLINK_BASENAME}.sorted.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+Linting validation/corpus/0365_index_and_lostruct.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0366_bcftools1.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0367_bcftools2.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0368_vcf-split.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0369_5-mocha.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0370_1a-vcf-split.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0371_baseline_capture.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0372_3a-find-maf-sites.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0373_Snakefile.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0374_run_order_independence.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0375_cancer_pipeline.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0376_run_update_genomes_4_w1118.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0377_vcf_from_mpileup.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0378_SNeP.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0379_pca_bears.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0380_submit.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0381_submit.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0382_selscan.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0383_prep_1000g_genotype.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0384_wgg_vcf_filter.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0385_copy_data.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0386_run_ase_genotype_specific_references_testData.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0387_SNP-CALLING.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 31: output type `-Ov` does not match the file name `$out_dir/all.samples.vcf.gz`.
+
+Linting validation/corpus/0388_Snakefile.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0389_call_mitoseq_lcwgs.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0390_submit_Sig.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0391_vcf_filtering.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 27: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting validation/corpus/0392_fix_missing.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0393_submit_2Pop.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0394_NeEstimator.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0395_submit_minimap2_upd_genome_w_mpileup_07amm.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 101: `bcftools view` writes `$OUTD/dm${RIL}_2_${REFNAME}_upd_genome_gt00.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+Linting validation/corpus/0396_vcf_filtering_x.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0397_vcf_merge_bcftools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0398_bcftools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0399_vcf_merge_bcftools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0400_8b_bcftools.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0401_8b-bcftools_ABfilter.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0402_aux_bcftools_call.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0403_bcftools_view_subset.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0404_bcftools_stats_per_horse.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0405_old8bfinal_bcftoolsABfilter.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0406_vcf_sort_index.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0407_hisat2_temp.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0408_0_TGP_PCA.slurm...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 17: `bcftools view` uses region options on `/mnt/stsi/stsi3/Internal/1000G/ref_panel/hg19/vcf/ALL.chr${i}.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting validation/corpus/0409_ASE.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0410_extract_mega_data.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0411_apply_filter.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0412_psmc.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0413_2.msci.prepBPP_general.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0414_wider_pca.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0415_run_relate_prep.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0416_1_ancestry_inference.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0417_run_gatk2.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0418_tag_job_expanse.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0419_ghaplo_make_gvcf.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0420_gdiplo_make_gvcf.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0421_Dsuite.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0422_zipVCF.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0423_nearfix.v2.2-afd.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0424_consensus.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0425_gvcf_to_vcf_scaff.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0426_bcfcalls.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0427_splitVCF.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0428_genomics.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 71: `bcftools view` redirects stdout to `var.raw.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+Linting validation/corpus/0429_admixture.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0430_extract_samples.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0431_vcf_scaff_to_snp.vcf.slurm...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 22: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting validation/corpus/0432_gene_region_pca.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0433_acquire_archaic.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0434_vcf_filter.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0435_main_node_analysis.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0436_snpPipeline.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0437_Filter_Chr1.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0438_Filter_Chr3.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0439_Filter_Chr9.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0440_bowtie_index.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0441_bcftools.pbs...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 17: `bcftools view` redirects stdout to `$PBS_O_WORKDIR/data/oilpalm/bcf/raw_bcf/$PBS_ARRAY_INDEX.30.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+Linting validation/corpus/0442_bcftools_merge.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0443_merge_bcftools_vcfs.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0444_bcftools_convert_joint.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0445_bcftools_view_af_over_0.5.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0446_bcftools_variant_calling.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0447_bcftools_variant_calling_4.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0448_bcftools_view_remove_Prze_horses.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0449_bcftools_view_no_homozygous_sites.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0450_bcftools_view_by_chr.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0451_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0452_xcall_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0453_GATK_01_RunBWA.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0454_run.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0455_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0456_gatk_pipeline.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0457_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0458_12-gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0459_gatk_hc.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0460_run_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0461_04.GATK.vcf.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0462_02.gatk_gvcf.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0463_GATK_QC.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0464_gatk.bam.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0465_gatkDOC.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0466_GATK_joint.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0467_gatk_install.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0468_generate_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0469_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0470_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0471_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0472_GATK_prep.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0473_gatk_genos.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0474_GATK_annotate.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0475_GATK_exome.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0476_GATK.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0477_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0478_run_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0479_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0480_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0481_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0482_qsub_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0483_1.2.1.gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0484_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0485_GATK.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0486_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0487_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0488_5_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0489_GATK_2.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0490_ant-bridge.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0491_03.gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0492_gatk_hc.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0493_gatk_dup.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0494_RNA-GATK.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0495_run_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0496_gatk_indel.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0497_GATK_filter.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0498_gatk_callsnp.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0499_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0500_run_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0501_GATK_pathseq.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0502_GATK.HC.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0503_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0504_gatk_interval.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0505_GATK_pipeline.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0506_call-gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0507_run_gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0508_starter.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0509_GATK.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0510_GATK_new_03.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0511_GATK_new_04.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0512_gatk_qc.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0513_call-gatk.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0514_gatk_filter.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0515_GATK.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0516_gatk_concat.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0517_GATK_CNV_BEÑAT.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0518_install.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0519_gatkfmtBam.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0520_IonProton.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0521_mergeGvcf.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0522_runXHMM.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0523_snpIndelDiscovery.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0524_Yifan_Wang_Script_for_Alabama_supercomputer.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0525_step1.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0526_step5.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0527_unbam_wrapper.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0528_install.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0529_RNApipeline.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0530_path.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0531_scripts.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0532_callGenotype.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0533_Pipeline.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0534_soup.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0535_VariantsToTable_v1.0.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0536_run.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0537_haplotypecaller.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0538_vcf_to_tsv.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0539_ContainerImages.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0540_WGS_WES1.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0541_mapping_GATK_concordance.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 43: `bcftools view` uses region options on `tiger-impute-ec-pcc.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting validation/corpus/0542_SNP-gatk-hg19.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0543_SNP-gatk-hg19_V2.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0544_gatk_indivvar.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0545_gatk_gvcftovcf.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0546_GATK_4_PrintReads.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0547_filterSNP.sub.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0548_GATK_2_IndelRealigner.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0549_3c_gatk.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0550_4b.conda.snpcall.gatk.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0551_4c_filt.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0552_6b.conda.recalgatk.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0553_run_mapgd_LD.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0554_Snakefile.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0555_run_mapgd_LD_28inds.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0556_run_anc_fasta_interval.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0557_4c-varselect.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0558_imprint-mgatk2.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0559_filter_vcf.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0560_install_env.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0561_bamqc.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0562_Sequence_post.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0563_mapping_pipeline.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0564_ASEreadcounter.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0565_HaplotypeCaller.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0566_best_practise.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0567_ApplyBQSR.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0568_vc_bp_pipeline.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0569_joint_genotyping.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0570_02a_prepare_liftOver.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0571_GATK.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0572_gatk.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0573_SNP_calling_GATK.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0574_gatk_calling.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0575_gatk_04-hc01.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0576_prep4_GATK.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0577_gatk_06_ggvcfs.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0578_gatk.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0579_gatk_03-markdup01.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0580_GATK_combine_gvcf.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0581_run_gatk_somatic.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0582_run_gatk_germline.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0583_3_gatk_variant_calling.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0584_4_gatk_variant_calling.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0585_1_gatk_variant_calling.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0586_04_gatk_indel_angsd_depth.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0587_01b_gatk_markduplicates.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0588_submit.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0589_Step3_mkUnalnBam.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0590_Step7_Mutect2_PON.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0591_Step3_5_sortUnalnBams.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0592_add_readgroups.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0593_06-downsample_bam.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0594_countReads.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0595_somatic_snv.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0596_filter_gatk_snps.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0597_call_gatk_combineGVCFs.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0598_filter_gatk_snps_indiv.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0599_gatk_varcall_job.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0600_call_gatk_genotyper_indiv.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0601_gatk_annotation_job.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0602_gatk.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0603_11-prep_GATK.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0604_gatk_convert_joint.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0605_5-variant_calling.gatk.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0606_gatk_genotypegvcfs_joint.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0607_gatk4_vqsr.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0608_gatk4_selectvariants.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0609_gatk4_pon_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0610_gatk4_mutect2_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0611_gatk4_hc_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0612_gatk4_gather_sort_vcfs.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0613_snpeff_3x.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0614_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0615_all.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0616_SnpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0617_SnpEff_perSample.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0618_AIDDpipelineVC.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0619_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0620_snpeff_wrapper.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0621_AIDDParts.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0622_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0623_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0624_make_snpeff_db.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0625_build_snpEff_db.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0626_snpeff_filter.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0627_create_snpeff_db.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0628_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0629_module_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0630_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0631_08_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0632_setup_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0633_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0634_run_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0635_SnpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0636_install_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0637_run_snpeff_42.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0638_build_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0639_snpEff_wrapper.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0640_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0641_build_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0642_08_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0643_build_snpEff_db.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0644_pegasus_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0645_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0646_pegasus_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0647_setup_snpeff_genome.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0648_direct_snpeff_build.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0649_07_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0650_make_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0651_snpEFF.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0652_SNPEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0653_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0654_run_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0655_08_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0656_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0657_7.0_SNPeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0658_NutVar2_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0659_12b_run_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0660_run_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0661_run_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0662_06_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0663_build_snpEff_db.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0664_08_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0665_annotate_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0666_Run_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0667_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0668_snpEff_WGS.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0669_wrapper.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0670_SNPeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0671_NutVar2_snpEff_chunker.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0672_NutVar2_snpEff_and_VEP.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0673_run.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0674_08_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0675_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0676_annotate_with_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0677_12a_create_snpeff_database.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0678_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0679_snpEff_WGS_alt40.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0680_9.snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0681_3_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0682_snpEff_annotate.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0683_20_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0684_download_3kRG_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0685_crg.snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0686_annotate_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0687_06_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0688_03_snpeff_annovar.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0689_snpEff_anno.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0690_06_snpEff_Af293.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0691_run_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0692_snpEff_ann.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0693_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0694_15_run_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0695_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0696_install_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0697_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0698_08_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0699_Gene_features_MethylKit_DMRs_snpEff.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0700_S6_Filter.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0701_installation.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0702_expressionANDsnp.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0703_05_somatic_variant_annotation.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0704_Notes_Mapping_Old_to_New_genome.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0705_Gene_features_of_metilene_DMRs.bash...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0706_run_snpEff.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0707_annotate_low.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0708_annotate_gua.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0709_annotate_mex.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0710_0068_read_mapping_by_bwa.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0711_0065_read_mapping_by_minimap2.sbatch...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0712_step9_snpEff.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0713_dardel_submit_production.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0714_step11a_no_outlier.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 91: `bcftools annotate` writes `no_47_snps_updated_chrom.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+Linting validation/corpus/0715_1.ROHan.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0716_postrun_Delivery.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0717_step10a_annotate_and_pca_missense_only.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 17: `bcftools annotate` writes `snps_updated_chrom.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+
+Linting validation/corpus/0718_mutationalload.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0719_mutationalload.chrAll.slurm...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0720_0_snpeff.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0721_rsync_Exome_Files.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0722_variant_calling.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0723_vcfMerger.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0724_delly.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0725_1_vcf_filter.pbs...
+
+[+] No issues found! Clean bill of health.
+
+Linting validation/corpus/0726_08-DiVir.pbs...
+
+[+] No issues found! Clean bill of health.
+

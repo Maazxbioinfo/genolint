@@ -1,0 +1,4 @@
+Linting validation/corpus/0093_build.bash...
+
+[+] No issues found! Clean bill of health.
+

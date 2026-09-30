@@ -1,0 +1,4 @@
+Linting validation/corpus/0334_filter_perPool_vcf.bash...
+
+[+] No issues found! Clean bill of health.
+

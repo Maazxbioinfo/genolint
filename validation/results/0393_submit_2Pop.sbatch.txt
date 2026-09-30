@@ -1,0 +1,4 @@
+Linting validation/corpus/0393_submit_2Pop.sbatch...
+
+[+] No issues found! Clean bill of health.
+

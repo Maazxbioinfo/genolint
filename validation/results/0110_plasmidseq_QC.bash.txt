@@ -1,0 +1,4 @@
+Linting validation/corpus/0110_plasmidseq_QC.bash...
+
+[+] No issues found! Clean bill of health.
+

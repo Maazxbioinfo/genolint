@@ -1,0 +1,4 @@
+Linting validation/corpus/0336_SMM_ht_noDD.bash...
+
+[+] No issues found! Clean bill of health.
+

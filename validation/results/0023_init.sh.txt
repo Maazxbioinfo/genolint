@@ -1,0 +1,4 @@
+Linting validation/corpus/0023_init.sh...
+
+[+] No issues found! Clean bill of health.
+

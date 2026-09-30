@@ -1,0 +1,5 @@
+Linting validation/corpus/0541_mapping_GATK_concordance.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 43: `bcftools view` uses region options on `tiger-impute-ec-pcc.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+

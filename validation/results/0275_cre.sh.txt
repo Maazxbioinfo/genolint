@@ -1,0 +1,8 @@
+Linting validation/corpus/0275_cre.sh...
+
+[!] Found 4 issue(s):
+  - [GL006] Line 180: `bcftools view` uses region options on `${family}-ensemble-annotated-decomposed.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+  - [GL006] Line 210: `bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+  - [GL006] Line 221: `bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+  - [GL006] Line 232: `bcftools view` uses region options on `$fprefix.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+

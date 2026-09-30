@@ -1,0 +1,4 @@
+Linting validation/corpus/0445_bcftools_view_af_over_0.5.pbs...
+
+[+] No issues found! Clean bill of health.
+

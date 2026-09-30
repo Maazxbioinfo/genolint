@@ -1,0 +1,4 @@
+Linting validation/corpus/0723_vcfMerger.pbs...
+
+[+] No issues found! Clean bill of health.
+

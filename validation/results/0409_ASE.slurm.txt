@@ -1,0 +1,4 @@
+Linting validation/corpus/0409_ASE.slurm...
+
+[+] No issues found! Clean bill of health.
+

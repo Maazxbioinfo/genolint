@@ -1,0 +1,4 @@
+Linting validation/corpus/0529_RNApipeline.bash...
+
+[+] No issues found! Clean bill of health.
+

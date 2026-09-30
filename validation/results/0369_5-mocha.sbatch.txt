@@ -1,0 +1,4 @@
+Linting validation/corpus/0369_5-mocha.sbatch...
+
+[+] No issues found! Clean bill of health.
+

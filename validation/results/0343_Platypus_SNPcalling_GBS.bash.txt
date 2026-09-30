@@ -1,0 +1,4 @@
+Linting validation/corpus/0343_Platypus_SNPcalling_GBS.bash...
+
+[+] No issues found! Clean bill of health.
+

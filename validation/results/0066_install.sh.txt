@@ -1,0 +1,4 @@
+Linting validation/corpus/0066_install.sh...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,5 @@
+Linting validation/corpus/0281_GB-eaSy.sh...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 45: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0527_unbam_wrapper.bash...
+
+[+] No issues found! Clean bill of health.
+

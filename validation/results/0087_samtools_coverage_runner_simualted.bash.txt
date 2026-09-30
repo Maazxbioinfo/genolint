@@ -1,0 +1,4 @@
+Linting validation/corpus/0087_samtools_coverage_runner_simualted.bash...
+
+[+] No issues found! Clean bill of health.
+

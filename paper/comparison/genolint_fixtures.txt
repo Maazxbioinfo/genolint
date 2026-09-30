@@ -1,0 +1,139 @@
+Linting tests/fixtures/bad/gl001.sh...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 1: `bcftools view` redirects stdout to `output.vcf.gz`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+Linting tests/fixtures/bad/gl002.sh...
+
+[!] Found 2 issue(s):
+  - [GL001] Line 1: `bcftools concat` writes `merged.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+  - [GL002] Line 1: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting tests/fixtures/bad/gl002_shards.sh...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 1: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting tests/fixtures/bad/gl003.sh...
+
+[!] Found 2 issue(s):
+  - [GL003] Line 1: `bcftools view` uses both `-r` and `-R` flags. These are conflicting region options and should not be used together.
+  - [GL006] Line 1: `bcftools view` uses region options on `input.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/bad/gl004.sh...
+
+[!] Found 1 issue(s):
+  - [GL004] Line 1: `SnpSift filter` uses substring `missense` instead of full term `missense_variant`. This can silently match zero records.
+
+Linting tests/fixtures/bad/gl005.sh...
+
+[!] Found 3 issue(s):
+  - [GL005] Contig-naming mismatch detected across script (mixing `chr`-prefixed and naked chromosome names around lines 1/2). This causes silent empty intersections.
+  - [GL006] Line 1: `bcftools view` uses region options on `input1.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+  - [GL006] Line 2: `bcftools view` uses region options on `input2.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/bad/gl006.sh...
+
+[!] Found 2 issue(s):
+  - [GL001] Line 1: `bcftools view` redirects stdout to `filtered.vcf.gz`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+  - [GL006] Line 1: `bcftools view` uses region options on `input.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/good/gl001_bcf.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl001_compressed.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl001_plain.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl002_concat_a.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl002_filelist.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl002_per_chrom.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl003_R_only.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl003_r_only.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl004_full_term.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl005_threads.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl006_index_t.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl006_indexed.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl006_tabix.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl006_write_index.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/pipe_indexed.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/redirect_log.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/bad_extra/gl001_mismatch.sh...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 1: output type `-Ov` does not match the file name `out.vcf.gz`.
+
+Linting tests/fixtures/bad_extra/gl001_redirect.sh...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 1: `bcftools view` redirects stdout to `out.vcf.gz`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+
+Linting tests/fixtures/bad_extra/gl002_pipe.sh...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 1: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting tests/fixtures/bad_extra/gl005_intervals.sh...
+
+[!] Found 1 issue(s):
+  - [GL005] Contig-naming mismatch detected across script (mixing `chr`-prefixed and naked chromosome names around lines 1/2). This causes silent empty intersections.
+
+Linting tests/fixtures/bad_extra/gl006_continuation.sh...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/bad_extra/gl006_pipe.sh...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/bad_extra/gl006_subshell.sh...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+

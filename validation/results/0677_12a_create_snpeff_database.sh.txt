@@ -1,0 +1,4 @@
+Linting validation/corpus/0677_12a_create_snpeff_database.sh...
+
+[+] No issues found! Clean bill of health.
+

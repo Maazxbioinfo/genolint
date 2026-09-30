@@ -1,0 +1,4 @@
+Linting validation/corpus/0699_Gene_features_MethylKit_DMRs_snpEff.bash...
+
+[+] No issues found! Clean bill of health.
+

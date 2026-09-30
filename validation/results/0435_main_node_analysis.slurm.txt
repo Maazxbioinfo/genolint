@@ -1,0 +1,4 @@
+Linting validation/corpus/0435_main_node_analysis.slurm...
+
+[+] No issues found! Clean bill of health.
+

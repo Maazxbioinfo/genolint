@@ -1,0 +1,4 @@
+Linting validation/corpus/0142_modern_couples.sbatch...
+
+[+] No issues found! Clean bill of health.
+

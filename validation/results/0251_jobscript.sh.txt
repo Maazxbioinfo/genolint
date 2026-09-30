@@ -1,0 +1,4 @@
+Linting validation/corpus/0251_jobscript.sh...
+
+[+] No issues found! Clean bill of health.
+

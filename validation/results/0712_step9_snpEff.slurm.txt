@@ -1,0 +1,4 @@
+Linting validation/corpus/0712_step9_snpEff.slurm...
+
+[+] No issues found! Clean bill of health.
+

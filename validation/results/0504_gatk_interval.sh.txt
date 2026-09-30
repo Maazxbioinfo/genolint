@@ -1,0 +1,4 @@
+Linting validation/corpus/0504_gatk_interval.sh...
+
+[+] No issues found! Clean bill of health.
+

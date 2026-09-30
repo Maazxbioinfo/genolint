@@ -1,0 +1,4 @@
+Linting validation/corpus/0318_get_allele_freqs.bash...
+
+[+] No issues found! Clean bill of health.
+

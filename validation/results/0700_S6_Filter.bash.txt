@@ -1,0 +1,4 @@
+Linting validation/corpus/0700_S6_Filter.bash...
+
+[+] No issues found! Clean bill of health.
+

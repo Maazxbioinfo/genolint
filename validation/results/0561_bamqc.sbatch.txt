@@ -1,0 +1,4 @@
+Linting validation/corpus/0561_bamqc.sbatch...
+
+[+] No issues found! Clean bill of health.
+

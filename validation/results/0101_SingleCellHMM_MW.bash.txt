@@ -1,0 +1,4 @@
+Linting validation/corpus/0101_SingleCellHMM_MW.bash...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0531_scripts.bash...
+
+[+] No issues found! Clean bill of health.
+

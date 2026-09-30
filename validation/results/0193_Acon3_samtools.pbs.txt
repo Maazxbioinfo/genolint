@@ -1,0 +1,4 @@
+Linting validation/corpus/0193_Acon3_samtools.pbs...
+
+[+] No issues found! Clean bill of health.
+

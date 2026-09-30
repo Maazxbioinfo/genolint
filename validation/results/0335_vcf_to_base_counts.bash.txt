@@ -1,0 +1,4 @@
+Linting validation/corpus/0335_vcf_to_base_counts.bash...
+
+[+] No issues found! Clean bill of health.
+

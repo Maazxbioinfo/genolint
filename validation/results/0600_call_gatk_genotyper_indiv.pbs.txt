@@ -1,0 +1,4 @@
+Linting validation/corpus/0600_call_gatk_genotyper_indiv.pbs...
+
+[+] No issues found! Clean bill of health.
+

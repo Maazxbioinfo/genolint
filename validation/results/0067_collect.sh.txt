@@ -1,0 +1,4 @@
+Linting validation/corpus/0067_collect.sh...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0392_fix_missing.sbatch...
+
+[+] No issues found! Clean bill of health.
+

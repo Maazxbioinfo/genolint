@@ -1,0 +1,4 @@
+Linting validation/corpus/0377_vcf_from_mpileup.sbatch...
+
+[+] No issues found! Clean bill of health.
+

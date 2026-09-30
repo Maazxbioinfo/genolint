@@ -1,0 +1,4 @@
+Linting validation/corpus/0266_run_introme.sh...
+
+[+] No issues found! Clean bill of health.
+

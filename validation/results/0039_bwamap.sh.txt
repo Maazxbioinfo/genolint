@@ -1,0 +1,4 @@
+Linting validation/corpus/0039_bwamap.sh...
+
+[+] No issues found! Clean bill of health.
+

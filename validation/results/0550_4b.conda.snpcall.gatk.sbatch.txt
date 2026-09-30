@@ -1,0 +1,4 @@
+Linting validation/corpus/0550_4b.conda.snpcall.gatk.sbatch...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0213_jobscript.pbs...
+
+[+] No issues found! Clean bill of health.
+

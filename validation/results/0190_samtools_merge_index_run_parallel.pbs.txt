@@ -1,0 +1,4 @@
+Linting validation/corpus/0190_samtools_merge_index_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+

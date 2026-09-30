@@ -1,0 +1,4 @@
+Linting validation/corpus/0554_Snakefile.sbatch...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0024_config.sh...
+
+[+] No issues found! Clean bill of health.
+

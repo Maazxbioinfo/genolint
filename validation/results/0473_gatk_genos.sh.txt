@@ -1,0 +1,4 @@
+Linting validation/corpus/0473_gatk_genos.sh...
+
+[+] No issues found! Clean bill of health.
+

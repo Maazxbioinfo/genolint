@@ -1,0 +1,4 @@
+Linting validation/corpus/0130_ctdna_rawreads.sbatch...
+
+[+] No issues found! Clean bill of health.
+

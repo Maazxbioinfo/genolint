@@ -1,0 +1,4 @@
+Linting validation/corpus/0383_prep_1000g_genotype.sbatch...
+
+[+] No issues found! Clean bill of health.
+

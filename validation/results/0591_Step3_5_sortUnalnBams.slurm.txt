@@ -1,0 +1,4 @@
+Linting validation/corpus/0591_Step3_5_sortUnalnBams.slurm...
+
+[+] No issues found! Clean bill of health.
+

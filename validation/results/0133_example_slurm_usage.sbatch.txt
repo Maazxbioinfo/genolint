@@ -1,0 +1,4 @@
+Linting validation/corpus/0133_example_slurm_usage.sbatch...
+
+[+] No issues found! Clean bill of health.
+

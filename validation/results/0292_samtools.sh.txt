@@ -1,0 +1,4 @@
+Linting validation/corpus/0292_samtools.sh...
+
+[+] No issues found! Clean bill of health.
+

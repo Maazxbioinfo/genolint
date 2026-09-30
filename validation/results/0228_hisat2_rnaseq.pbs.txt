@@ -1,0 +1,4 @@
+Linting validation/corpus/0228_hisat2_rnaseq.pbs...
+
+[+] No issues found! Clean bill of health.
+

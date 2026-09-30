@@ -1,0 +1,4 @@
+Linting validation/corpus/0564_ASEreadcounter.sbatch...
+
+[+] No issues found! Clean bill of health.
+

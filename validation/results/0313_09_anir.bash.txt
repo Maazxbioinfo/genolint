@@ -1,0 +1,4 @@
+Linting validation/corpus/0313_09_anir.bash...
+
+[+] No issues found! Clean bill of health.
+

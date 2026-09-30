@@ -1,0 +1,5 @@
+Linting validation/corpus/0428_genomics.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 71: `bcftools view` redirects stdout to `var.raw.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+

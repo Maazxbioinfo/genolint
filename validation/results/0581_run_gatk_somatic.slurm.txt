@@ -1,0 +1,4 @@
+Linting validation/corpus/0581_run_gatk_somatic.slurm...
+
+[+] No issues found! Clean bill of health.
+

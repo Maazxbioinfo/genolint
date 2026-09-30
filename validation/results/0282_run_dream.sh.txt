@@ -1,0 +1,4 @@
+Linting validation/corpus/0282_run_dream.sh...
+
+[+] No issues found! Clean bill of health.
+

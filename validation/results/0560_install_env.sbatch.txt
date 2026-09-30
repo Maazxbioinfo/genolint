@@ -1,0 +1,4 @@
+Linting validation/corpus/0560_install_env.sbatch...
+
+[+] No issues found! Clean bill of health.
+

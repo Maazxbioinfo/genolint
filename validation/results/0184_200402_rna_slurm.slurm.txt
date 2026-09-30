@@ -1,0 +1,4 @@
+Linting validation/corpus/0184_200402_rna_slurm.slurm...
+
+[+] No issues found! Clean bill of health.
+

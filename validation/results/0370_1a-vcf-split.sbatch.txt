@@ -1,0 +1,4 @@
+Linting validation/corpus/0370_1a-vcf-split.sbatch...
+
+[+] No issues found! Clean bill of health.
+

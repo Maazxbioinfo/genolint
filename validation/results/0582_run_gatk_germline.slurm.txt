@@ -1,0 +1,4 @@
+Linting validation/corpus/0582_run_gatk_germline.slurm...
+
+[+] No issues found! Clean bill of health.
+

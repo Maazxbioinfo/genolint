@@ -1,0 +1,4 @@
+Linting validation/corpus/0080_samtools_tab_completion.bash...
+
+[+] No issues found! Clean bill of health.
+

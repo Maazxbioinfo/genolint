@@ -1,0 +1,5 @@
+Linting validation/corpus/0408_0_TGP_PCA.slurm...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 17: `bcftools view` uses region options on `/mnt/stsi/stsi3/Internal/1000G/ref_panel/hg19/vcf/ALL.chr${i}.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.clean.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+

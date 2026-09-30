@@ -1,0 +1,4 @@
+Linting validation/corpus/0702_expressionANDsnp.bash...
+
+[+] No issues found! Clean bill of health.
+

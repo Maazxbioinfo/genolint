@@ -1,0 +1,4 @@
+Linting validation/corpus/0362_lostruct.sbatch...
+
+[+] No issues found! Clean bill of health.
+

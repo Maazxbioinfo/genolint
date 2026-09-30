@@ -1,0 +1,4 @@
+Linting validation/corpus/0202_call_spp_custom.pbs...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,5 @@
+Linting validation/corpus/0147_samtools.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 15: `bcftools call` writes `nci60.${1}.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+

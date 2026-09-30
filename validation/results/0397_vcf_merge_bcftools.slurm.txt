@@ -1,0 +1,4 @@
+Linting validation/corpus/0397_vcf_merge_bcftools.slurm...
+
+[+] No issues found! Clean bill of health.
+

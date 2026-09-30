@@ -1,0 +1,4 @@
+Linting validation/corpus/0097_hirise_commands.bash...
+
+[+] No issues found! Clean bill of health.
+

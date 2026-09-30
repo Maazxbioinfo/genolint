@@ -1,0 +1,4 @@
+Linting validation/corpus/0412_psmc.slurm...
+
+[+] No issues found! Clean bill of health.
+

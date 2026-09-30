@@ -1,0 +1,4 @@
+Linting validation/corpus/0181_runAnalysis.slurm...
+
+[+] No issues found! Clean bill of health.
+

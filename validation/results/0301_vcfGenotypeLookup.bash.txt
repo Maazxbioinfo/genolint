@@ -1,0 +1,4 @@
+Linting validation/corpus/0301_vcfGenotypeLookup.bash...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0416_1_ancestry_inference.slurm...
+
+[+] No issues found! Clean bill of health.
+

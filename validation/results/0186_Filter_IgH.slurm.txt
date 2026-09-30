@@ -1,0 +1,4 @@
+Linting validation/corpus/0186_Filter_IgH.slurm...
+
+[+] No issues found! Clean bill of health.
+

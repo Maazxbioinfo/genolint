@@ -1,0 +1,4 @@
+Linting validation/corpus/0136_run_rRNA_removal.sbatch...
+
+[+] No issues found! Clean bill of health.
+

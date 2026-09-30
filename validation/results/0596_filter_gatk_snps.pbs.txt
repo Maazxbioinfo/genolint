@@ -1,0 +1,4 @@
+Linting validation/corpus/0596_filter_gatk_snps.pbs...
+
+[+] No issues found! Clean bill of health.
+

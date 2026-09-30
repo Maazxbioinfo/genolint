@@ -1,0 +1,4 @@
+Linting validation/corpus/0247_exomes.sh...
+
+[+] No issues found! Clean bill of health.
+

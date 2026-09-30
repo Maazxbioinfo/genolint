@@ -1,0 +1,4 @@
+Linting validation/corpus/0295_install_deps.sh...
+
+[+] No issues found! Clean bill of health.
+

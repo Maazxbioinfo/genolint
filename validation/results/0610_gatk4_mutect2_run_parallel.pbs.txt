@@ -1,0 +1,4 @@
+Linting validation/corpus/0610_gatk4_mutect2_run_parallel.pbs...
+
+[+] No issues found! Clean bill of health.
+

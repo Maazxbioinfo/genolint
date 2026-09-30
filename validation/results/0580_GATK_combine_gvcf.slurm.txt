@@ -1,0 +1,4 @@
+Linting validation/corpus/0580_GATK_combine_gvcf.slurm...
+
+[+] No issues found! Clean bill of health.
+

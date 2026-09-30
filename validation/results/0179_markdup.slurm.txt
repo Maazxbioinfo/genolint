@@ -1,0 +1,4 @@
+Linting validation/corpus/0179_markdup.slurm...
+
+[+] No issues found! Clean bill of health.
+

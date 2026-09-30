@@ -1,0 +1,4 @@
+Linting validation/corpus/0345_bcf_merge_lib1_to_6_TARdn_V2P.bash...
+
+[+] No issues found! Clean bill of health.
+

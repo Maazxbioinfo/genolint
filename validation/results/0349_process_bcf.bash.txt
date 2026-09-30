@@ -1,0 +1,4 @@
+Linting validation/corpus/0349_process_bcf.bash...
+
+[+] No issues found! Clean bill of health.
+

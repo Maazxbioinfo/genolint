@@ -1,0 +1,4 @@
+Linting validation/corpus/0172_bwa.slurm...
+
+[+] No issues found! Clean bill of health.
+

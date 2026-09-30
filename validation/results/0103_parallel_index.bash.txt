@@ -1,0 +1,4 @@
+Linting validation/corpus/0103_parallel_index.bash...
+
+[+] No issues found! Clean bill of health.
+

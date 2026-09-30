@@ -1,0 +1,4 @@
+Linting validation/corpus/0543_SNP-gatk-hg19_V2.sbatch...
+
+[+] No issues found! Clean bill of health.
+

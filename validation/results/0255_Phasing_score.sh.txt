@@ -1,0 +1,4 @@
+Linting validation/corpus/0255_Phasing_score.sh...
+
+[+] No issues found! Clean bill of health.
+

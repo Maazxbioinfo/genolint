@@ -1,0 +1,4 @@
+Linting validation/corpus/0595_somatic_snv.slurm...
+
+[+] No issues found! Clean bill of health.
+

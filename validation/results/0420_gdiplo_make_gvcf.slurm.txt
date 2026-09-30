@@ -1,0 +1,4 @@
+Linting validation/corpus/0420_gdiplo_make_gvcf.slurm...
+
+[+] No issues found! Clean bill of health.
+

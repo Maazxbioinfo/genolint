@@ -1,0 +1,4 @@
+Linting validation/corpus/0434_vcf_filter.slurm...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0297_11_call_snvs_with_bcftools.bash...
+
+[+] No issues found! Clean bill of health.
+

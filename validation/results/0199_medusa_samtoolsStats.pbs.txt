@@ -1,0 +1,4 @@
+Linting validation/corpus/0199_medusa_samtoolsStats.pbs...
+
+[+] No issues found! Clean bill of health.
+

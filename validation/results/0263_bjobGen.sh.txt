@@ -1,0 +1,4 @@
+Linting validation/corpus/0263_bjobGen.sh...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0713_dardel_submit_production.slurm...
+
+[+] No issues found! Clean bill of health.
+

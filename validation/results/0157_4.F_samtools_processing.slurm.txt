@@ -1,0 +1,4 @@
+Linting validation/corpus/0157_4.F_samtools_processing.slurm...
+
+[+] No issues found! Clean bill of health.
+

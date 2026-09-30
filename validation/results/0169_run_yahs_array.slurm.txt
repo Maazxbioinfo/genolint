@@ -1,0 +1,4 @@
+Linting validation/corpus/0169_run_yahs_array.slurm...
+
+[+] No issues found! Clean bill of health.
+

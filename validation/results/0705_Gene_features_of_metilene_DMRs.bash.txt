@@ -1,0 +1,4 @@
+Linting validation/corpus/0705_Gene_features_of_metilene_DMRs.bash...
+
+[+] No issues found! Clean bill of health.
+

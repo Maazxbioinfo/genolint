@@ -1,0 +1,4 @@
+Linting validation/corpus/0418_tag_job_expanse.slurm...
+
+[+] No issues found! Clean bill of health.
+

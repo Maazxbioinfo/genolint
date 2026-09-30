@@ -1,0 +1,4 @@
+Linting validation/corpus/0402_aux_bcftools_call.slurm...
+
+[+] No issues found! Clean bill of health.
+

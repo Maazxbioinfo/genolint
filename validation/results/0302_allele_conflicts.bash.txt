@@ -1,0 +1,4 @@
+Linting validation/corpus/0302_allele_conflicts.bash...
+
+[+] No issues found! Clean bill of health.
+

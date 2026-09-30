@@ -1,0 +1,4 @@
+Linting validation/corpus/0556_run_anc_fasta_interval.sbatch...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0593_06-downsample_bam.slurm...
+
+[+] No issues found! Clean bill of health.
+

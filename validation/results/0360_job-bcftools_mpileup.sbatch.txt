@@ -1,0 +1,4 @@
+Linting validation/corpus/0360_job-bcftools_mpileup.sbatch...
+
+[+] No issues found! Clean bill of health.
+

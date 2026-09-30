@@ -1,0 +1,4 @@
+Linting validation/corpus/0328_s12_8_variantAnnotation.bash...
+
+[+] No issues found! Clean bill of health.
+

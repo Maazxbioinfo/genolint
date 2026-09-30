@@ -1,0 +1,4 @@
+Linting validation/corpus/0265_updateVMs.sh...
+
+[+] No issues found! Clean bill of health.
+

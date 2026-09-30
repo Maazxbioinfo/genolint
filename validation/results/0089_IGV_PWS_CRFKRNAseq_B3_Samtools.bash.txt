@@ -1,0 +1,4 @@
+Linting validation/corpus/0089_IGV_PWS_CRFKRNAseq_B3_Samtools.bash...
+
+[+] No issues found! Clean bill of health.
+

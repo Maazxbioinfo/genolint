@@ -1,0 +1,4 @@
+Linting validation/corpus/0339_s99.x1.get_fmissing.bash...
+
+[+] No issues found! Clean bill of health.
+

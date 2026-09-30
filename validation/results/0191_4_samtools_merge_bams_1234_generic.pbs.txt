@@ -1,0 +1,4 @@
+Linting validation/corpus/0191_4_samtools_merge_bams_1234_generic.pbs...
+
+[+] No issues found! Clean bill of health.
+

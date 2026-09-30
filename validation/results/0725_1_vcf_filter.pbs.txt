@@ -1,0 +1,4 @@
+Linting validation/corpus/0725_1_vcf_filter.pbs...
+
+[+] No issues found! Clean bill of health.
+

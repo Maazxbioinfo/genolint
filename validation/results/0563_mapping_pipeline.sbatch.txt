@@ -1,0 +1,4 @@
+Linting validation/corpus/0563_mapping_pipeline.sbatch...
+
+[+] No issues found! Clean bill of health.
+

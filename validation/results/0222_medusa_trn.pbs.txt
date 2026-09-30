@@ -1,0 +1,4 @@
+Linting validation/corpus/0222_medusa_trn.pbs...
+
+[+] No issues found! Clean bill of health.
+

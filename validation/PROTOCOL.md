@@ -25,3 +25,13 @@ Random ~25% of findings labeled independently; report Cohen's kappa.
 
 ## Fixes
 Any rule change after seeing FPs is logged; pre-fix and post-fix numbers are both reported.
+
+## Fix log
+- 2026-10-01 (commit 6e31afb): GL005 false positives found during corpus review.
+  Both corpus GL005 findings (0583_3, 0585_1; GATK HaplotypeCaller) were labeled FP:
+  the thread count in `--native-pair-hmm-threads 4` was parsed as contig "4".
+  Rule narrowed so bare integers count as contigs only inside region arguments.
+  The two findings were labeled after the main review round.
+  Before fix: 27 findings in 20 scripts; 19 TP / 4 FP / 4 UNCLEAR (precision 19/23 = 82.6%, UNCLEAR excluded).
+  After fix: 25 findings in 18 scripts; 19 TP / 2 FP / 4 UNCLEAR (precision 19/21 = 90.5%, UNCLEAR excluded).
+  Snapshots: validation/findings_pre_gl005_fix.txt, validation/findings_post_gl005_fix.txt.

@@ -1,0 +1,4 @@
+Linting validation/corpus/0194_Vrig3_samtools.pbs...
+
+[+] No issues found! Clean bill of health.
+

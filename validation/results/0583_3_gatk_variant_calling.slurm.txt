@@ -1,0 +1,4 @@
+Linting validation/corpus/0583_3_gatk_variant_calling.slurm...
+
+[+] No issues found! Clean bill of health.
+

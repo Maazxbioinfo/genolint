@@ -1,0 +1,4 @@
+Linting validation/corpus/0212_metaG_2_metaG.pbs...
+
+[+] No issues found! Clean bill of health.
+

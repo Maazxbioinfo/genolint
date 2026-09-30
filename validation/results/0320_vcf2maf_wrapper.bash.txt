@@ -1,0 +1,4 @@
+Linting validation/corpus/0320_vcf2maf_wrapper.bash...
+
+[+] No issues found! Clean bill of health.
+

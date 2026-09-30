@@ -1,0 +1,4 @@
+Linting validation/corpus/0140_ProcessRemapWGS.sbatch...
+
+[+] No issues found! Clean bill of health.
+

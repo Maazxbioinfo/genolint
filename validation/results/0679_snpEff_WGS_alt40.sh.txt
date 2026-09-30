@@ -1,0 +1,4 @@
+Linting validation/corpus/0679_snpEff_WGS_alt40.sh...
+
+[+] No issues found! Clean bill of health.
+

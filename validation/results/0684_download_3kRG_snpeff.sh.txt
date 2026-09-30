@@ -1,0 +1,4 @@
+Linting validation/corpus/0684_download_3kRG_snpeff.sh...
+
+[+] No issues found! Clean bill of health.
+

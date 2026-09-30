@@ -1,0 +1,5 @@
+Linting validation/corpus/0387_SNP-CALLING.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 31: output type `-Ov` does not match the file name `$out_dir/all.samples.vcf.gz`.
+

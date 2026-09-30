@@ -1,0 +1,4 @@
+Linting validation/corpus/0539_ContainerImages.bash...
+
+[+] No issues found! Clean bill of health.
+

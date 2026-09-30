@@ -1,0 +1,4 @@
+Linting validation/corpus/0724_delly.pbs...
+
+[+] No issues found! Clean bill of health.
+

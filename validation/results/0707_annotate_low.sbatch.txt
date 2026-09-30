@@ -1,0 +1,4 @@
+Linting validation/corpus/0707_annotate_low.sbatch...
+
+[+] No issues found! Clean bill of health.
+

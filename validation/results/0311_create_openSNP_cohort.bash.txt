@@ -1,0 +1,4 @@
+Linting validation/corpus/0311_create_openSNP_cohort.bash...
+
+[+] No issues found! Clean bill of health.
+

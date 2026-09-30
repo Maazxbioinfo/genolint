@@ -1,0 +1,4 @@
+Linting validation/corpus/0308_genomic_modules.bash...
+
+[+] No issues found! Clean bill of health.
+

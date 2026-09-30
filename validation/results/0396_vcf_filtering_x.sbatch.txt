@@ -1,0 +1,4 @@
+Linting validation/corpus/0396_vcf_filtering_x.sbatch...
+
+[+] No issues found! Clean bill of health.
+

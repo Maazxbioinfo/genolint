@@ -1,0 +1,4 @@
+Linting validation/corpus/0407_hisat2_temp.slurm...
+
+[+] No issues found! Clean bill of health.
+

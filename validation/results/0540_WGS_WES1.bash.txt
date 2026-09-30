@@ -1,0 +1,4 @@
+Linting validation/corpus/0540_WGS_WES1.bash...
+
+[+] No issues found! Clean bill of health.
+

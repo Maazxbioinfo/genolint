@@ -1,0 +1,4 @@
+Linting validation/corpus/0346_bcf_variant_calling.bash...
+
+[+] No issues found! Clean bill of health.
+

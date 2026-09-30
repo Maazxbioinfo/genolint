@@ -1,0 +1,4 @@
+Linting validation/corpus/0206_clonalCovPerl.pbs...
+
+[+] No issues found! Clean bill of health.
+

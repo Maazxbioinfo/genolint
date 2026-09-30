@@ -1,0 +1,4 @@
+Linting validation/corpus/0406_vcf_sort_index.slurm...
+
+[+] No issues found! Clean bill of health.
+

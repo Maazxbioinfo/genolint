@@ -1,0 +1,4 @@
+Linting validation/corpus/0264_VCF_2_CSV.sh...
+
+[+] No issues found! Clean bill of health.
+

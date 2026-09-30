@@ -1,0 +1,4 @@
+Linting validation/corpus/0065_AG_check.sh...
+
+[+] No issues found! Clean bill of health.
+

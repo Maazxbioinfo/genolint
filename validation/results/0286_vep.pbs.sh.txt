@@ -1,0 +1,4 @@
+Linting validation/corpus/0286_vep.pbs.sh...
+
+[+] No issues found! Clean bill of health.
+

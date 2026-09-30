@@ -1,0 +1,4 @@
+Linting validation/corpus/0410_extract_mega_data.slurm...
+
+[+] No issues found! Clean bill of health.
+

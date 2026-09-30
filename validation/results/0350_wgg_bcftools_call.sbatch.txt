@@ -1,0 +1,4 @@
+Linting validation/corpus/0350_wgg_bcftools_call.sbatch...
+
+[+] No issues found! Clean bill of health.
+

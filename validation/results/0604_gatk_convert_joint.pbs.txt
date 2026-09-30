@@ -1,0 +1,4 @@
+Linting validation/corpus/0604_gatk_convert_joint.pbs...
+
+[+] No issues found! Clean bill of health.
+

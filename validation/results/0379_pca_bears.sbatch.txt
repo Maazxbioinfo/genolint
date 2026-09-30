@@ -1,0 +1,4 @@
+Linting validation/corpus/0379_pca_bears.sbatch...
+
+[+] No issues found! Clean bill of health.
+

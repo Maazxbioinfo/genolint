@@ -1,0 +1,4 @@
+Linting validation/corpus/0135_run_L1a1_pipeline.sbatch...
+
+[+] No issues found! Clean bill of health.
+

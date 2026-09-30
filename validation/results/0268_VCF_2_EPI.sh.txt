@@ -1,0 +1,4 @@
+Linting validation/corpus/0268_VCF_2_EPI.sh...
+
+[+] No issues found! Clean bill of health.
+

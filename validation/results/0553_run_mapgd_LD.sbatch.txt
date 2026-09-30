@@ -1,0 +1,4 @@
+Linting validation/corpus/0553_run_mapgd_LD.sbatch...
+
+[+] No issues found! Clean bill of health.
+

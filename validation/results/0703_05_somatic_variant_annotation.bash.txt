@@ -1,0 +1,4 @@
+Linting validation/corpus/0703_05_somatic_variant_annotation.bash...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0331_combineGenotype.bash...
+
+[+] No issues found! Clean bill of health.
+

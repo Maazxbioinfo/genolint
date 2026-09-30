@@ -1,0 +1,4 @@
+Linting validation/corpus/0376_run_update_genomes_4_w1118.sbatch...
+
+[+] No issues found! Clean bill of health.
+

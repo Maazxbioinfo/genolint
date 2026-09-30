@@ -1,0 +1,4 @@
+Linting validation/corpus/0252_build-all.sh...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,5 @@
+Linting validation/corpus/0314_bcf-align-genome.bash...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 11: `bcftools view` redirects stdout to `snps.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0646_pegasus_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+

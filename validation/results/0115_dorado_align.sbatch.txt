@@ -1,0 +1,4 @@
+Linting validation/corpus/0115_dorado_align.sbatch...
+
+[+] No issues found! Clean bill of health.
+

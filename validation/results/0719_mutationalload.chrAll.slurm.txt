@@ -1,0 +1,4 @@
+Linting validation/corpus/0719_mutationalload.chrAll.slurm...
+
+[+] No issues found! Clean bill of health.
+

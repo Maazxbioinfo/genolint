@@ -1,0 +1,4 @@
+Linting validation/corpus/0612_gatk4_gather_sort_vcfs.pbs...
+
+[+] No issues found! Clean bill of health.
+

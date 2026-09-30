@@ -1,0 +1,7 @@
+Linting validation/corpus/0361_02a_bcftools_clean-chromosomes.sbatch...
+
+[!] Found 3 issue(s):
+  - [GL001] Line 116: `bcftools norm` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+  - [GL001] Line 120: `bcftools sort` writes `${JOB_SCRATCH}/${PLINK_BASENAME}.norm.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+  - [GL001] Line 138: `bcftools sort` writes `${OUTPUTS_DIR}/${PLINK_BASENAME}.sorted.bcf` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+

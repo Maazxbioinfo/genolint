@@ -1,0 +1,4 @@
+Linting validation/corpus/0710_0068_read_mapping_by_bwa.sbatch...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0535_VariantsToTable_v1.0.bash...
+
+[+] No issues found! Clean bill of health.
+

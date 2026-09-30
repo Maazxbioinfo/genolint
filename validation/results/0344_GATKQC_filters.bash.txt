@@ -1,0 +1,4 @@
+Linting validation/corpus/0344_GATKQC_filters.bash...
+
+[+] No issues found! Clean bill of health.
+

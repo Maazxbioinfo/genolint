@@ -1,0 +1,4 @@
+Linting validation/corpus/0200_5.phase_loops.pbs...
+
+[+] No issues found! Clean bill of health.
+

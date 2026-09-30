@@ -1,0 +1,4 @@
+Linting validation/corpus/0449_bcftools_view_no_homozygous_sites.pbs...
+
+[+] No issues found! Clean bill of health.
+

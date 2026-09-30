@@ -1,0 +1,4 @@
+Linting validation/corpus/0599_gatk_varcall_job.pbs...
+
+[+] No issues found! Clean bill of health.
+

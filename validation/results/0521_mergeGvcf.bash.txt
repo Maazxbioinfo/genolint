@@ -1,0 +1,4 @@
+Linting validation/corpus/0521_mergeGvcf.bash...
+
+[+] No issues found! Clean bill of health.
+

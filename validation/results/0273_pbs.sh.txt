@@ -1,0 +1,4 @@
+Linting validation/corpus/0273_pbs.sh...
+
+[+] No issues found! Clean bill of health.
+

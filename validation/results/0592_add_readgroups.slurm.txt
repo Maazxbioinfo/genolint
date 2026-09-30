@@ -1,0 +1,4 @@
+Linting validation/corpus/0592_add_readgroups.slurm...
+
+[+] No issues found! Clean bill of health.
+

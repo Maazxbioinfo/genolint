@@ -1,0 +1,4 @@
+Linting validation/corpus/0161_samtools_faidx.slurm...
+
+[+] No issues found! Clean bill of health.
+

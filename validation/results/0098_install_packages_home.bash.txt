@@ -1,0 +1,4 @@
+Linting validation/corpus/0098_install_packages_home.bash...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0341_bsub_make_bcfs_sra.bash...
+
+[+] No issues found! Clean bill of health.
+

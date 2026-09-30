@@ -1,0 +1,4 @@
+Linting validation/corpus/0386_run_ase_genotype_specific_references_testData.sbatch...
+
+[+] No issues found! Clean bill of health.
+

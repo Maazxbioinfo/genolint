@@ -1,0 +1,4 @@
+Linting validation/corpus/0321_strkit_job.bash...
+
+[+] No issues found! Clean bill of health.
+

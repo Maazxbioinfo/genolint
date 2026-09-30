@@ -1,0 +1,4 @@
+Linting validation/corpus/0304_filter_vcf.bash...
+
+[+] No issues found! Clean bill of health.
+

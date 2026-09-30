@@ -1,0 +1,4 @@
+Linting validation/corpus/0464_gatk.bam.sh...
+
+[+] No issues found! Clean bill of health.
+

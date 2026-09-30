@@ -1,0 +1,4 @@
+Linting validation/corpus/0077_non_ref.sh...
+
+[+] No issues found! Clean bill of health.
+

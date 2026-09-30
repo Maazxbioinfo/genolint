@@ -1,0 +1,4 @@
+Linting validation/corpus/0105_5_remove_low_quality.bash...
+
+[+] No issues found! Clean bill of health.
+

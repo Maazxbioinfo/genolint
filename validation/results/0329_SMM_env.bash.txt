@@ -1,0 +1,4 @@
+Linting validation/corpus/0329_SMM_env.bash...
+
+[+] No issues found! Clean bill of health.
+

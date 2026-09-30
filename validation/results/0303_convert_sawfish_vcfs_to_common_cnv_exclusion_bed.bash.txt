@@ -1,0 +1,4 @@
+Linting validation/corpus/0303_convert_sawfish_vcfs_to_common_cnv_exclusion_bed.bash...
+
+[+] No issues found! Clean bill of health.
+

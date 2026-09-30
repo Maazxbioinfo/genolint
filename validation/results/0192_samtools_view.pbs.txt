@@ -1,0 +1,4 @@
+Linting validation/corpus/0192_samtools_view.pbs...
+
+[+] No issues found! Clean bill of health.
+

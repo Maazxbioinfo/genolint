@@ -1,0 +1,4 @@
+Linting validation/corpus/0405_old8bfinal_bcftoolsABfilter.slurm...
+
+[+] No issues found! Clean bill of health.
+

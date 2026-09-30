@@ -1,0 +1,4 @@
+Linting validation/corpus/0175_runBowtie2only.slurm...
+
+[+] No issues found! Clean bill of health.
+

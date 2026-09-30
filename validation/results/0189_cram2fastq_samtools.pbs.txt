@@ -1,0 +1,4 @@
+Linting validation/corpus/0189_cram2fastq_samtools.pbs...
+
+[+] No issues found! Clean bill of health.
+

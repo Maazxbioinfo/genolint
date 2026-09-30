@@ -1,0 +1,4 @@
+Linting validation/corpus/0425_gvcf_to_vcf_scaff.slurm...
+
+[+] No issues found! Clean bill of health.
+

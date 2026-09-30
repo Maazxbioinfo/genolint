@@ -1,0 +1,4 @@
+Linting validation/corpus/0118_samtools_stats.sbatch...
+
+[+] No issues found! Clean bill of health.
+

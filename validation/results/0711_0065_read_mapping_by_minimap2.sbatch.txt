@@ -1,0 +1,4 @@
+Linting validation/corpus/0711_0065_read_mapping_by_minimap2.sbatch...
+
+[+] No issues found! Clean bill of health.
+

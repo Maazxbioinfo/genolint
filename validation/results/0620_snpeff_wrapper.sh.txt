@@ -1,0 +1,4 @@
+Linting validation/corpus/0620_snpeff_wrapper.sh...
+
+[+] No issues found! Clean bill of health.
+

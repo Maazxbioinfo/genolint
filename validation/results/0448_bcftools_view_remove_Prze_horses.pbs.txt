@@ -1,0 +1,4 @@
+Linting validation/corpus/0448_bcftools_view_remove_Prze_horses.pbs...
+
+[+] No issues found! Clean bill of health.
+

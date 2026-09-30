@@ -1,0 +1,4 @@
+Linting validation/corpus/0064_NanoFG.sh...
+
+[+] No issues found! Clean bill of health.
+

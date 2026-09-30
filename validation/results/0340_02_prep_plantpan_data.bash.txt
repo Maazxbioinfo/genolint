@@ -1,0 +1,4 @@
+Linting validation/corpus/0340_02_prep_plantpan_data.bash...
+
+[+] No issues found! Clean bill of health.
+

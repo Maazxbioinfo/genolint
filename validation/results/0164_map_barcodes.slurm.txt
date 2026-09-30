@@ -1,0 +1,4 @@
+Linting validation/corpus/0164_map_barcodes.slurm...
+
+[+] No issues found! Clean bill of health.
+

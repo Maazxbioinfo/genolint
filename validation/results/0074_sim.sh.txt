@@ -1,0 +1,4 @@
+Linting validation/corpus/0074_sim.sh...
+
+[+] No issues found! Clean bill of health.
+

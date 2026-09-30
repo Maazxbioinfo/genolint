@@ -1,0 +1,4 @@
+Linting validation/corpus/0433_acquire_archaic.slurm...
+
+[+] No issues found! Clean bill of health.
+

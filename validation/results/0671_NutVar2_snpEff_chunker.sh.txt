@@ -1,0 +1,4 @@
+Linting validation/corpus/0671_NutVar2_snpEff_chunker.sh...
+
+[+] No issues found! Clean bill of health.
+

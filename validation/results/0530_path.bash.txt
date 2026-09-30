@@ -1,0 +1,4 @@
+Linting validation/corpus/0530_path.bash...
+
+[+] No issues found! Clean bill of health.
+

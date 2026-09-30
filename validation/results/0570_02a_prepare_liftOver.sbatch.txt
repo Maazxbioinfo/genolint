@@ -1,0 +1,4 @@
+Linting validation/corpus/0570_02a_prepare_liftOver.sbatch...
+
+[+] No issues found! Clean bill of health.
+

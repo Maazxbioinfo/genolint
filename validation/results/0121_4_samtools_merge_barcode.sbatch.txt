@@ -1,0 +1,4 @@
+Linting validation/corpus/0121_4_samtools_merge_barcode.sbatch...
+
+[+] No issues found! Clean bill of health.
+

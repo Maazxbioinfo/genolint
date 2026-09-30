@@ -1,0 +1,4 @@
+Linting validation/corpus/0315_merge_VCFs.bash...
+
+[+] No issues found! Clean bill of health.
+

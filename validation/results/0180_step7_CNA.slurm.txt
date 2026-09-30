@@ -1,0 +1,4 @@
+Linting validation/corpus/0180_step7_CNA.slurm...
+
+[+] No issues found! Clean bill of health.
+

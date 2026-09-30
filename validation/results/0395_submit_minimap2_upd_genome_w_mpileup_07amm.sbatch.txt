@@ -1,0 +1,5 @@
+Linting validation/corpus/0395_submit_minimap2_upd_genome_w_mpileup_07amm.sbatch...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 101: `bcftools view` writes `$OUTD/dm${RIL}_2_${REFNAME}_upd_genome_gt00.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+

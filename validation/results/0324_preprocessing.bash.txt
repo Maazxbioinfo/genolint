@@ -1,0 +1,4 @@
+Linting validation/corpus/0324_preprocessing.bash...
+
+[+] No issues found! Clean bill of health.
+

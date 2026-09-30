@@ -1,0 +1,4 @@
+Linting validation/corpus/0606_gatk_genotypegvcfs_joint.pbs...
+
+[+] No issues found! Clean bill of health.
+

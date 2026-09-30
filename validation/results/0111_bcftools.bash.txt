@@ -1,0 +1,4 @@
+Linting validation/corpus/0111_bcftools.bash...
+
+[+] No issues found! Clean bill of health.
+

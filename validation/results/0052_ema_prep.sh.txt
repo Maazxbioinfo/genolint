@@ -1,0 +1,4 @@
+Linting validation/corpus/0052_ema_prep.sh...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0138_braker_run.sbatch...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0547_filterSNP.sub.sbatch...
+
+[+] No issues found! Clean bill of health.
+

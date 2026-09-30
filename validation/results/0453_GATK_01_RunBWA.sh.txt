@@ -1,0 +1,4 @@
+Linting validation/corpus/0453_GATK_01_RunBWA.sh...
+
+[+] No issues found! Clean bill of health.
+

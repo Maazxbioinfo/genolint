@@ -1,0 +1,4 @@
+Linting validation/corpus/0526_step5.bash...
+
+[+] No issues found! Clean bill of health.
+

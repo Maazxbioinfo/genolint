@@ -1,0 +1,4 @@
+Linting validation/corpus/0502_GATK.HC.sh...
+
+[+] No issues found! Clean bill of health.
+

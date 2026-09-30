@@ -1,0 +1,4 @@
+Linting validation/corpus/0096_isotypes_star.bash...
+
+[+] No issues found! Clean bill of health.
+

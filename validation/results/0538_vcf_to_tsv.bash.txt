@@ -1,0 +1,4 @@
+Linting validation/corpus/0538_vcf_to_tsv.bash...
+
+[+] No issues found! Clean bill of health.
+

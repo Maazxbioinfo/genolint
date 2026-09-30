@@ -1,0 +1,4 @@
+Linting validation/corpus/0221_trinity_3.pbs...
+
+[+] No issues found! Clean bill of health.
+

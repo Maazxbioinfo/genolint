@@ -1,0 +1,4 @@
+Linting validation/corpus/0033_Align.sh...
+
+[+] No issues found! Clean bill of health.
+

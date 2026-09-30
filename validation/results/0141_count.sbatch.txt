@@ -1,0 +1,4 @@
+Linting validation/corpus/0141_count.sbatch...
+
+[+] No issues found! Clean bill of health.
+

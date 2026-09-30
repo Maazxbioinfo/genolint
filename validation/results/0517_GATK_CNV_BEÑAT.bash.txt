@@ -1,0 +1,4 @@
+Linting validation/corpus/0517_GATK_CNV_BEÑAT.bash...
+
+[+] No issues found! Clean bill of health.
+

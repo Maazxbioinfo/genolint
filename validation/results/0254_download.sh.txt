@@ -1,0 +1,4 @@
+Linting validation/corpus/0254_download.sh...
+
+[+] No issues found! Clean bill of health.
+

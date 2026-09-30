@@ -1,0 +1,5 @@
+Linting validation/corpus/0714_step11a_no_outlier.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 91: `bcftools annotate` writes `no_47_snps_updated_chrom.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0569_joint_genotyping.sbatch...
+
+[+] No issues found! Clean bill of health.
+

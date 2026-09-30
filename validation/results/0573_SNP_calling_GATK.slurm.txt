@@ -1,0 +1,4 @@
+Linting validation/corpus/0573_SNP_calling_GATK.slurm...
+
+[+] No issues found! Clean bill of health.
+

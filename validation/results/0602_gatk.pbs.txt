@@ -1,0 +1,4 @@
+Linting validation/corpus/0602_gatk.pbs...
+
+[+] No issues found! Clean bill of health.
+

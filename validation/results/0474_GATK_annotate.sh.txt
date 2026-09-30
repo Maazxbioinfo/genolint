@@ -1,0 +1,4 @@
+Linting validation/corpus/0474_GATK_annotate.sh...
+
+[+] No issues found! Clean bill of health.
+

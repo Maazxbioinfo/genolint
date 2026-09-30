@@ -1,0 +1,4 @@
+Linting validation/corpus/0456_gatk_pipeline.sh...
+
+[+] No issues found! Clean bill of health.
+

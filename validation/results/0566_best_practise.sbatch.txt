@@ -1,0 +1,4 @@
+Linting validation/corpus/0566_best_practise.sbatch...
+
+[+] No issues found! Clean bill of health.
+

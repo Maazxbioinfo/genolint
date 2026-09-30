@@ -1,0 +1,4 @@
+Linting validation/corpus/0565_HaplotypeCaller.sbatch...
+
+[+] No issues found! Clean bill of health.
+

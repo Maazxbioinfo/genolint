@@ -1,0 +1,4 @@
+Linting validation/corpus/0462_02.gatk_gvcf.sh...
+
+[+] No issues found! Clean bill of health.
+

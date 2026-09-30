@@ -1,0 +1,4 @@
+Linting validation/corpus/0356_bcftools_call_by_scaffold.sbatch...
+
+[+] No issues found! Clean bill of health.
+

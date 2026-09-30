@@ -1,0 +1,4 @@
+Linting validation/corpus/0072_macs2.sh...
+
+[+] No issues found! Clean bill of health.
+

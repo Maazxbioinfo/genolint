@@ -1,0 +1,4 @@
+Linting validation/corpus/0357_0066_getSNPs_from_BAM_by_bcftools.sbatch...
+
+[+] No issues found! Clean bill of health.
+

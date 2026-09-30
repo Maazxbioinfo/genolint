@@ -1,0 +1,4 @@
+Linting validation/corpus/0051_hisat.sh...
+
+[+] No issues found! Clean bill of health.
+

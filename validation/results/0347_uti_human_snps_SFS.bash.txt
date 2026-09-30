@@ -1,0 +1,4 @@
+Linting validation/corpus/0347_uti_human_snps_SFS.bash...
+
+[+] No issues found! Clean bill of health.
+

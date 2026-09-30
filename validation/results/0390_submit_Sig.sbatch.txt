@@ -1,0 +1,4 @@
+Linting validation/corpus/0390_submit_Sig.sbatch...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0325_get_pgen.bash...
+
+[+] No issues found! Clean bill of health.
+

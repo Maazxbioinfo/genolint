@@ -1,0 +1,4 @@
+Linting validation/corpus/0134_Bam2Cram.sbatch...
+
+[+] No issues found! Clean bill of health.
+

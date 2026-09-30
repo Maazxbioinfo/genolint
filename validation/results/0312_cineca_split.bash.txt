@@ -1,0 +1,4 @@
+Linting validation/corpus/0312_cineca_split.bash...
+
+[+] No issues found! Clean bill of health.
+

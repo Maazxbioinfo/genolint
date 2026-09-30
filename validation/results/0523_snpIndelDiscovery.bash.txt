@@ -1,0 +1,4 @@
+Linting validation/corpus/0523_snpIndelDiscovery.bash...
+
+[+] No issues found! Clean bill of health.
+

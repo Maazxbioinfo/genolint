@@ -1,0 +1,5 @@
+Linting validation/corpus/0431_vcf_scaff_to_snp.vcf.slurm...
+
+[!] Found 1 issue(s):
+  - [GL002] Line 22: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+

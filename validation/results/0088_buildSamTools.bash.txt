@@ -1,0 +1,4 @@
+Linting validation/corpus/0088_buildSamTools.bash...
+
+[+] No issues found! Clean bill of health.
+

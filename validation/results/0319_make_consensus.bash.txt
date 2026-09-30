@@ -1,0 +1,4 @@
+Linting validation/corpus/0319_make_consensus.bash...
+
+[+] No issues found! Clean bill of health.
+

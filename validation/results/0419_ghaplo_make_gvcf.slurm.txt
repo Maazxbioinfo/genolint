@@ -1,0 +1,4 @@
+Linting validation/corpus/0419_ghaplo_make_gvcf.slurm...
+
+[+] No issues found! Clean bill of health.
+

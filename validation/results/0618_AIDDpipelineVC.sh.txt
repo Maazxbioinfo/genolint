@@ -1,0 +1,4 @@
+Linting validation/corpus/0618_AIDDpipelineVC.sh...
+
+[+] No issues found! Clean bill of health.
+

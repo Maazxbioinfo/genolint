@@ -1,0 +1,4 @@
+Linting validation/corpus/0656_snpEff.sh...
+
+[+] No issues found! Clean bill of health.
+

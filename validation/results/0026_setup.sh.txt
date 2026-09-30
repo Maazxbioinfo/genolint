@@ -1,0 +1,4 @@
+Linting validation/corpus/0026_setup.sh...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0226_human.pbs...
+
+[+] No issues found! Clean bill of health.
+

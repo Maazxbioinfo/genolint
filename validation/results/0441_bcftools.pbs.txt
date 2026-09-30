@@ -1,0 +1,5 @@
+Linting validation/corpus/0441_bcftools.pbs...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 17: `bcftools view` redirects stdout to `$PBS_O_WORKDIR/data/oilpalm/bcf/raw_bcf/$PBS_ARRAY_INDEX.30.bcf`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
+

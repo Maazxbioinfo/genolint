@@ -1,0 +1,4 @@
+Linting validation/corpus/0496_gatk_indel.sh...
+
+[+] No issues found! Clean bill of health.
+

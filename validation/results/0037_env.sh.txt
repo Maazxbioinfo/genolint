@@ -1,0 +1,4 @@
+Linting validation/corpus/0037_env.sh...
+
+[+] No issues found! Clean bill of health.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0552_6b.conda.recalgatk.sbatch...
+
+[+] No issues found! Clean bill of health.
+

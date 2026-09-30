@@ -1,0 +1,4 @@
+Linting validation/corpus/0285_cre.vcf2db.sh...
+
+[+] No issues found! Clean bill of health.
+

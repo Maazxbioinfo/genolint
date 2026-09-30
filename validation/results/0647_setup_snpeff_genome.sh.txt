@@ -1,0 +1,4 @@
+Linting validation/corpus/0647_setup_snpeff_genome.sh...
+
+[+] No issues found! Clean bill of health.
+

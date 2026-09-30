@@ -1,0 +1,4 @@
+Linting validation/corpus/0099_create_metaplots.bash...
+
+[+] No issues found! Clean bill of health.
+

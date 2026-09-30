@@ -1,0 +1,4 @@
+Linting validation/corpus/0532_callGenotype.bash...
+
+[+] No issues found! Clean bill of health.
+

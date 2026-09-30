@@ -1,0 +1,4 @@
+Linting validation/corpus/0586_04_gatk_indel_angsd_depth.slurm...
+
+[+] No issues found! Clean bill of health.
+

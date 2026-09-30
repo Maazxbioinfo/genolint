@@ -1,0 +1,4 @@
+Linting validation/corpus/0404_bcftools_stats_per_horse.slurm...
+
+[+] No issues found! Clean bill of health.
+

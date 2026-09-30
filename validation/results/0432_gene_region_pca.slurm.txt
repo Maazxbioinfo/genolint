@@ -1,0 +1,4 @@
+Linting validation/corpus/0432_gene_region_pca.slurm...
+
+[+] No issues found! Clean bill of health.
+

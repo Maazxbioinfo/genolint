@@ -1,0 +1,4 @@
+Linting validation/corpus/0524_Yifan_Wang_Script_for_Alabama_supercomputer.bash...
+
+[+] No issues found! Clean bill of health.
+

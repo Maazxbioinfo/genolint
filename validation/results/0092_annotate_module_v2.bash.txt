@@ -1,0 +1,4 @@
+Linting validation/corpus/0092_annotate_module_v2.bash...
+
+[+] No issues found! Clean bill of health.
+

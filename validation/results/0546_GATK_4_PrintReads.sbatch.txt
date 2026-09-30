@@ -1,0 +1,4 @@
+Linting validation/corpus/0546_GATK_4_PrintReads.sbatch...
+
+[+] No issues found! Clean bill of health.
+

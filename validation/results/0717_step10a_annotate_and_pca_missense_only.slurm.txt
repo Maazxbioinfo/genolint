@@ -1,0 +1,5 @@
+Linting validation/corpus/0717_step10a_annotate_and_pca_missense_only.slurm...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 17: `bcftools annotate` writes `snps_updated_chrom.vcf.gz` without an output type. Some bcftools versions then write uncompressed VCF; add -Oz (or -Ob for .bcf) to be explicit.
+

@@ -1,0 +1,4 @@
+Linting validation/corpus/0551_4c_filt.sbatch...
+
+[+] No issues found! Clean bill of health.
+
