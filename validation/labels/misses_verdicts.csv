@@ -1,0 +1,31 @@
+file,bug_present,category,notes
+0000_Samtools.sh,N,,candidate lines reviewed; no bug in the six categories
+0001_install.sh,N,,candidate lines reviewed; no bug in the six categories
+0009_setup.sh,N,,candidate lines reviewed; no bug in the six categories
+0016_getData.sh,N,,candidate lines reviewed; no bug in the six categories
+0048_liftover.sh,N,,candidate lines reviewed; no bug in the six categories
+0092_annotate_module_v2.bash,N,,candidate lines reviewed; no bug in the six categories
+0103_parallel_index.bash,N,,candidate lines reviewed; no bug in the six categories
+0172_bwa.slurm,N,,candidate lines reviewed; no bug in the six categories
+0184_200402_rna_slurm.slurm,N,,candidate lines reviewed; no bug in the six categories
+0214_align.pbs,N,,candidate lines reviewed; no bug in the six categories
+0226_human.pbs,N,,candidate lines reviewed; no bug in the six categories
+0239_bcftools_tags.sh,N,,candidate lines reviewed; no bug in the six categories
+0247_exomes.sh,N,,candidate lines reviewed; no bug in the six categories
+0249_common.sh,N,,candidate lines reviewed; no bug in the six categories
+0258_pipeline.sh,N,,candidate lines reviewed; no bug in the six categories
+0363_summarize_run.sbatch,N,,candidate lines reviewed; no bug in the six categories
+0372_3a-find-maf-sites.sbatch,N,,candidate lines reviewed; no bug in the six categories
+0447_bcftools_variant_calling_4.pbs,N,,candidate lines reviewed; no bug in the six categories
+0450_bcftools_view_by_chr.pbs,UNCLEAR,GL006,"bcftools view -r on thesis_intersect.vcf.gz in a one-line for loop; input made outside this script, index status unknown"
+0454_run.sh,N,,candidate lines reviewed; no bug in the six categories
+0504_gatk_interval.sh,N,,candidate lines reviewed; no bug in the six categories
+0533_Pipeline.bash,N,,candidate lines reviewed; no bug in the six categories
+0595_somatic_snv.slurm,N,,candidate lines reviewed; no bug in the six categories
+0596_filter_gatk_snps.pbs,N,,candidate lines reviewed; no bug in the six categories
+0621_AIDDParts.sh,N,,candidate lines reviewed; no bug in the six categories
+0635_SnpEff.sh,N,,candidate lines reviewed; no bug in the six categories
+0668_snpEff_WGS.sh,N,,candidate lines reviewed; no bug in the six categories
+0695_snpeff.sh,N,,candidate lines reviewed; no bug in the six categories
+0699_Gene_features_MethylKit_DMRs_snpEff.bash,N,,candidate lines reviewed; no bug in the six categories
+0707_annotate_low.sbatch,N,,candidate lines reviewed; no bug in the six categories
