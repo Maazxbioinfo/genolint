@@ -10,6 +10,12 @@ SUPPORTED_TOOLS = {"bcftools", "samtools", "gatk", "snpEff", "SnpSift", "tabix",
 # `java -jar <prefix>*.jar <subcommand>` is treated as a direct call of the tool
 JAR_TOOLS = {"snpsift": "SnpSift", "snpeff": "snpEff"}
 
+# `$BCFTOOLS view ...` / `"${samtools}" sort ...`: a variable that names the tool
+VAR_TOOLS = {"bcftools": "bcftools", "samtools": "samtools", "snpsift": "SnpSift",
+             "snpeff": "snpEff", "gatk": "gatk", "tabix": "tabix", "bgzip": "bgzip"}
+_VAR_ONLY = re.compile(r"^\$\{?([A-Za-z_][A-Za-z0-9_]*)\}?$")
+_SUBCMD = re.compile(r"^\+?[A-Za-z][A-Za-z0-9_-]*$")
+
 # Leading VAR=value assignments, wrappers such as `time`, and shell keywords
 # (do, then, else, if, while, {, ...) that precede a command are skipped
 _PREFIX = re.compile(
@@ -89,6 +95,26 @@ def _split_commands(line: str) -> List[str]:
     return parts
 
 
+_TOK = r"""(?:"[^"]*"|'[^']*'|\S+)"""
+_FIRST = re.compile(r"^" + _TOK)
+_JAVA_HEAD = re.compile(r"^" + _TOK + r"(?:\s+" + _TOK + r")*?\s+-jar\s+" + _TOK)
+
+
+def _normalize_head(seg: str, tool: str) -> str:
+    """Rules re-tokenize raw_line and expect it to start with the bare tool name.
+    Rewrite a leading path, $VARIABLE or `java [opts] -jar X.jar` to that name."""
+    first = _FIRST.match(seg)
+    if not first:
+        return seg
+    head = first.group(0).strip("\"'")
+    if head.split("/")[-1] == "java":
+        m = _JAVA_HEAD.match(seg)
+        return tool + seg[m.end():] if m else seg
+    if head != tool:
+        return tool + seg[first.end():]
+    return seg
+
+
 def _make_command(segment: str, line_no: int) -> Optional[Command]:
     seg = _PREFIX.sub("", segment, count=1).strip()
     if not seg:
@@ -114,13 +140,21 @@ def _make_command(segment: str, line_no: int) -> Optional[Command]:
                     tool = name
                     tokens = [name] + tokens[j + 2:]
                     break
+    # `$BCFTOOLS view ...` -> bcftools view ... (the variable must be the whole first word)
+    m = _VAR_ONLY.match(tokens[0])
+    if m and len(tokens) > 1 and _SUBCMD.match(tokens[1]):
+        name = m.group(1).lower()
+        for key, canon in VAR_TOOLS.items():
+            if key in name:
+                tool = canon
+                break
     if tool not in SUPPORTED_TOOLS:
         return None
 
     subcommand = tokens[1] if len(tokens) > 1 else ""
     flags = {t for t in tokens[2:] if t.startswith("-")}
     return Command(tool=tool, subcommand=subcommand, flags=flags,
-                   line_no=line_no, raw_line=seg)
+                   line_no=line_no, raw_line=_normalize_head(seg, tool))
 
 
 def extract_commands_from_text(text: str) -> List[Command]:
