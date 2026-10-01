@@ -7,6 +7,9 @@ from genolint.model import Command
 # List of genomic tools we want to track in v1
 SUPPORTED_TOOLS = {"bcftools", "samtools", "gatk", "snpEff", "SnpSift", "tabix", "bgzip"}
 
+# `java -jar <prefix>*.jar <subcommand>` is treated as a direct call of the tool
+JAR_TOOLS = {"snpsift": "SnpSift", "snpeff": "snpEff"}
+
 # Leading VAR=value assignments, wrappers such as `time`, and shell keywords
 # (do, then, else, if, while, {, ...) that precede a command are skipped
 _PREFIX = re.compile(
@@ -101,6 +104,16 @@ def _make_command(segment: str, line_no: int) -> Optional[Command]:
     # Handle paths like /usr/bin/bcftools -> bcftools
     if "/" in tool:
         tool = tool.split("/")[-1]
+    # `java [opts] -jar /path/SnpSift.jar filter ...` -> SnpSift filter ...
+    if tool == "java" and "-jar" in tokens:
+        j = tokens.index("-jar")
+        if j + 1 < len(tokens):
+            jar = tokens[j + 1].split("/")[-1].lower()
+            for prefix, name in JAR_TOOLS.items():
+                if jar.startswith(prefix):
+                    tool = name
+                    tokens = [name] + tokens[j + 2:]
+                    break
     if tool not in SUPPORTED_TOOLS:
         return None
 
