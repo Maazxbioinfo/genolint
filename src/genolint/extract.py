@@ -7,9 +7,10 @@ from genolint.model import Command
 # List of genomic tools we want to track in v1
 SUPPORTED_TOOLS = {"bcftools", "samtools", "gatk", "snpEff", "SnpSift", "tabix", "bgzip"}
 
-# Leading VAR=value assignments and wrappers such as `time` are skipped
+# Leading VAR=value assignments, wrappers such as `time`, and shell keywords
+# (do, then, else, if, while, {, ...) that precede a command are skipped
 _PREFIX = re.compile(
-    r"^\s*(?:(?:[A-Za-z_][A-Za-z0-9_]*=\S*|time|sudo|nohup|env|command|exec|nice)\s+)*"
+    r"^\s*(?:(?:[A-Za-z_][A-Za-z0-9_]*=\S*|time|sudo|nohup|env|command|exec|nice|do|then|else|elif|if|while|until|!|\{)\s+)*"
 )
 
 
