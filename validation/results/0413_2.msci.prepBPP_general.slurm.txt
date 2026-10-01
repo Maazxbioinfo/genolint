@@ -1,4 +1,5 @@
 Linting validation/corpus/0413_2.msci.prepBPP_general.slurm...
 
-[+] No issues found! Clean bill of health.
+[!] Found 1 issue(s):
+  - [GL006] Line 38: `bcftools view` uses region options on `/n/mallet_lab/Lab/fseixas/1.projects/2.elevatus_pardalinus/0.data/2.3.merge/$0.$refnam.merge.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
 

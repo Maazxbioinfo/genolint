@@ -74,6 +74,10 @@ Linting tests/fixtures/good/gl004_full_term.sh...
 
 [+] No issues found! Clean bill of health.
 
+Linting tests/fixtures/good/gl004_java_full_term.sh...
+
+[+] No issues found! Clean bill of health.
+
 Linting tests/fixtures/good/gl005_threads.sh...
 
 [+] No issues found! Clean bill of health.
@@ -86,7 +90,19 @@ Linting tests/fixtures/good/gl006_indexed.sh...
 
 [+] No issues found! Clean bill of health.
 
+Linting tests/fixtures/good/gl006_oneline_loop_indexed.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl006_output_file.sh...
+
+[+] No issues found! Clean bill of health.
+
 Linting tests/fixtures/good/gl006_tabix.sh...
+
+[+] No issues found! Clean bill of health.
+
+Linting tests/fixtures/good/gl006_var_tool_indexed.sh...
 
 [+] No issues found! Clean bill of health.
 
@@ -102,6 +118,10 @@ Linting tests/fixtures/good/redirect_log.sh...
 
 [+] No issues found! Clean bill of health.
 
+Linting tests/fixtures/good/var_not_a_tool.sh...
+
+[+] No issues found! Clean bill of health.
+
 Linting tests/fixtures/bad_extra/gl001_mismatch.sh...
 
 [!] Found 1 issue(s):
@@ -112,10 +132,30 @@ Linting tests/fixtures/bad_extra/gl001_redirect.sh...
 [!] Found 1 issue(s):
   - [GL001] Line 1: `bcftools view` redirects stdout to `out.vcf.gz`, but with no output type stdout is uncompressed VCF, so the file will not match its extension. Add -Oz (or -Ob for .bcf).
 
+Linting tests/fixtures/bad_extra/gl001_then_branch.sh...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 1: output type `-Ov` does not match the file name `out.vcf.gz`.
+
+Linting tests/fixtures/bad_extra/gl001_var_tool.sh...
+
+[!] Found 1 issue(s):
+  - [GL001] Line 1: output type `-Ov` does not match the file name `out.vcf.gz`.
+
 Linting tests/fixtures/bad_extra/gl002_pipe.sh...
 
 [!] Found 1 issue(s):
   - [GL002] Line 1: `bcftools concat` without `-a` (--allow-overlaps). Plain concat expects ordered, non-overlapping inputs, so if these files can overlap (shards, windows, multiple callers) the result may be wrong or the command may fail. Use `-a` for overlapping inputs (requires indexed files), or ignore this if they are one file per chromosome.
+
+Linting tests/fixtures/bad_extra/gl004_java_jar.sh...
+
+[!] Found 1 issue(s):
+  - [GL004] Line 1: `SnpSift filter` uses substring `missense` instead of full term `missense_variant`. This can silently match zero records.
+
+Linting tests/fixtures/bad_extra/gl004_java_pipe.sh...
+
+[!] Found 1 issue(s):
+  - [GL004] Line 1: `SnpSift filter` uses substring `synonymous` instead of full term `synonymous_variant`. This can silently match zero records.
 
 Linting tests/fixtures/bad_extra/gl005_intervals.sh...
 
@@ -127,12 +167,32 @@ Linting tests/fixtures/bad_extra/gl006_continuation.sh...
 [!] Found 1 issue(s):
   - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
 
+Linting tests/fixtures/bad_extra/gl006_oneline_loop.sh...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/bad_extra/gl006_output_file.sh...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/bad_extra/gl006_path_tool.sh...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
 Linting tests/fixtures/bad_extra/gl006_pipe.sh...
 
 [!] Found 1 issue(s):
   - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
 
 Linting tests/fixtures/bad_extra/gl006_subshell.sh...
+
+[!] Found 1 issue(s):
+  - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
+
+Linting tests/fixtures/bad_extra/gl006_var_tool.sh...
 
 [!] Found 1 issue(s):
   - [GL006] Line 1: `bcftools view` uses region options on `in.vcf.gz` but no prior index step was found in this script. This is likely to fail at runtime unless the index already exists.
