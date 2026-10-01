@@ -12,6 +12,7 @@ VIEW_VALUE_FLAGS = {
     "-g", "--genotype", "-m", "--min-alleles", "-M", "--max-alleles",
     "-v", "--types", "-V", "--exclude-types", "-q", "--min-af", "-Q",
     "--max-af", "--threads", "--regions-overlap", "--targets-overlap",
+    "--output-file",
     ">", ">>", "2>",
 }
 INDEX_VALUE_FLAGS = {"-o", "--output", "--output-file", "-m", "--min-shift",
