@@ -1,3 +1,19 @@
-
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "genolint: a static linter for genomics command-line scripts"
+type: software
+authors:
+  - family-names: "Ahmed"
+    given-names: "Maaz"
+    affiliation: "Ziauddin University, Karachi, Pakistan"
+abstract: "genolint is a static linter for bcftools, samtools, GATK, SnpEff and SnpSift commands in shell scripts and Snakemake files. Six rules detect silent, tool-specific errors such as an output type that does not match the file extension, bcftools concat without --allow-overlaps, region queries on an unindexed file, partial SnpSift consequence terms and mixed chr/bare contig names."
 version: 0.1.0
 date-released: 2026-10-03
+license: MIT
+repository-code: "https://github.com/Maazxbioinfo/genolint"
+keywords:
+  - genomics
+  - static analysis
+  - linting
+  - bcftools
+  - bioinformatics
