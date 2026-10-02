@@ -12,7 +12,7 @@ against a small set of rules.
 ## Install
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Maazxbioinfo/genolint.git
 cd genolint
 pip install -e .
 ```
