@@ -1,5 +1,7 @@
 # genolint
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23111608.svg)](https://doi.org/10.5281/zenodo.23111608)
+
 A static linter for genomics command-line scripts. It reads shell scripts and
 finds command-line mistakes in samtools, bcftools, GATK and SnpEff/SnpSift
 calls that tend to fail late or silently, before you spend hours on a run.
