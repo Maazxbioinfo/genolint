@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 0.1.0 - 2026-10-03
+
+### Added
+- First tagged release. Static linter for bcftools, samtools, GATK, SnpEff and SnpSift commands in shell scripts and Snakemake files, with six rules (GL001-GL006): output type vs file extension, `bcftools concat` without `-a`, `-r` together with `-R`, partial SnpSift consequence terms, mixed `chr`/bare contig names, and region queries without an index.
+- Validation protocol, labels, per-script results and a reproducible comparison with ShellCheck and `snakemake --lint` (see `validation/` and `paper/comparison/`).
+
 ### Fixed
 - Parser: commands after `do`/`then`/`else`/`if`/`while` on the same line (one-line loops) are now recognized.
 - Parser: `java [opts] -jar SnpSift.jar|snpEff.jar <subcommand>` is treated as a direct SnpSift/snpEff call (GL004 could not see these before).
