@@ -37,7 +37,7 @@ Any rule change after seeing FPs is logged; pre-fix and post-fix numbers are bot
   Snapshots: validation/findings_pre_gl005_fix.txt, validation/findings_post_gl005_fix.txt.
 
 ## Fix log (parser and GL006)
-- 2026-10-02 (commits 4dced35, 677b96f, 36748ec; code version in RESULTS_VERSION.txt):
+- 2026-10-02 (commits 4dced35 through 36748ec; code version in RESULTS_VERSION.txt):
   the hand review of 30 zero-finding scripts (labels/misses_verdicts.csv: 0 confirmed misses,
   1 UNCLEAR) exposed parser blind spots, each reproduced with a one-line example: tool calls on a
   one-line `for ... do ...; done` or `if ... then ...`; `java -jar SnpSift.jar` calls (GL004 could not
